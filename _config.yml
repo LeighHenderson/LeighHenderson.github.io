@@ -16,10 +16,10 @@
 title: Leigh Henderson
 description: > # this means to ignore newlines until "baseurl:"
   Genetics. Programming. Together.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://example.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+baseurl: "http://LeighHenderson.github.io" # the subpath of your site, e.g. /blog
+url: "http://LeighHenderson.github.io" # the base hostname & protocol for your site
+# twitter_username: jekyllrb
+github_username:  Leigh Henderson
 
 # Build settings
 markdown: kramdown
