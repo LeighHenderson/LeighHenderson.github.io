@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "CRISPR/Cas9"
+date:   2016-09-07 10:14:00 -0400
+categories: theory behind laboatory techniques
+---
+CRISPR/Cas9 is a technique for gene editing. It allows for the introduction of mutations at specific locations in the genome.
+
+One of the first papers to detail this technique was written by [Mali et al.]
+
+[//]: #(Below are reference links which will get stripped out when this file is converted from markdown to html by Jekyll
+
+   [Mali et al.]: <http://www.ncbi.nlm.nih.gov/pubmed/23287722>
