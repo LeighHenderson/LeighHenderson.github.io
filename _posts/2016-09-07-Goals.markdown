@@ -1,0 +1,28 @@
+---
+layout: post
+title:  "Goals in creating a website with GitHub Pages"
+date:   2016-09-07 11:47:00 -0400
+categories: websites
+---
+
+Creating a website with GitHub Pages is my reentry into programming. I'd like to earn the following stripes through this project:
+
+- [x] Bash basics
+- [x] Create a GitHub account and learn about GitHub
+- [ ] Learn version control with git
+- [x] Use the Homebrew package manager
+- [x] Install Ruby versions via rbenv
+- [x] Use Ruby gems, starting with bundler
+- [x] Build a Jekyll site
+- [ ] Markdown basics
+- [ ] Html basics
+- [ ] CSS basics
+- [ ] Liquid templating with Jekyll
+- [ ] Google analytics
+- [ ] Ruby on Rails (may move away from GitHub Pages for this as a next step)
+
+Content on this site might include:
+
+- [ ] Laboratory protocols
+- [ ] Topics that would help new students in biomedical laboraties understand scientific theories (ex. on CRISPR/Cas9) on a useful level
+- [ ] My resume
