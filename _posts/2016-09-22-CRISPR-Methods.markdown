@@ -12,7 +12,7 @@ Here’s how the CRISPR/Cas9 system is used to gene-edit cells in culture [Link 
 4. Isolate single cells and grow them into clonal populations of cells (aka. clones)
 5. Find clones with the desired edit
 
-<img src="/assets/Figure_CRISPR_methods_overview.jpg" alt="Figure. An overview of methods to edit the cellular genome with CRISPR/Cas9" style="width:400px">
+<img src="/assets/Figure_CRISPR_methods_overview.jpg" alt="Figure. An overview of methods to edit the cellular genome with CRISPR/Cas9" style="width:800px">
 
 ## 1. Introduce the CRISPR/Cas9 plasmids into cells
 There are three components of the CRISPR/Cas9 system: templateDNA, guideRNA, and Cas9 protein. Notice all three components of the central dogma of biology: DNA, RNA, and protein. Of these, RNA is difficult to work with because it is unstable at room temperature (and cells cannot survive long in the cold) and protein is so large that it is difficult to get past the cell membrane. DNA, however, is easy to introduce into cells. Therefore, all three components are introduced into the cells as circular DNA sequences called plasmids. Plasmids encoding Cas9 are available off-the-shelf, but plasmids for templateDNA and guideRNA are custom designed [link to cloning protocols page; footnote on the protocol’s page: an authoritative source of molecular cloning techniques is Molecular Cloning, A Laboratory Manual; list SnapGene as a resource]. 
@@ -22,7 +22,7 @@ Once the plasmids are available, they are introduced into cells using a process 
 ## 2. Wait for gene-editing to occur
 Once inside the cell, natural cellular processes turn plasmid DNA into RNA and protein. When guideRNA and Cas9 protein bind to one another and to genomic DNA, the genomic DNA is cut.  The cellular DNA repair pathway may use the templateDNA to repair the break, thereby introducing the desired edit.
 
-<img src="/assets/Figure_CRISPR_component_DNARNAProtein.jpg alt="Figure. The guideRNA is transcribed from DNA into RNA, while the Cas9 is both transcribed from DNA into RNA and translated from RNA into protein. The template is neither transcribed nor translated." style="width:800px">
+<img src="/assets/Figure_CRISPR_component_DNARNAProtein.jpg" alt="Figure. The guideRNA is transcribed from DNA into RNA, while the Cas9 is both transcribed from DNA into RNA and translated from RNA into protein. The template is neither transcribed nor translated." style="width:800px">
 
 ## 3. Isolate edited cells
  Of the many cells transfected with CRISPR/Cas9 plasmids, 1-90% of cells may actually be edited. The transfection process is often the limiting step in editing: most cells that take up plasmids are edited. A marker protein is often used to identify cells that take up plasmids. With the green fluorescent protein (GFP) marker, for example, cells that fluoresce green are separated [link to FACS protocol] from non-fluorescent cells. Marker proteins can be encoded on the same plasmid as the Cas9 DNA sequence. 
