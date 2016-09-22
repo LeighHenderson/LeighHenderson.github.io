@@ -13,17 +13,20 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+
+# description will appear in your document head meta (for Google search results) and in your feed.xml site description.
+# Use a variable: >  to ignore new lines until the next variable
+# Be careful with http vs https. May cause CSS not to load if wrong one is used
+
+title: Leigh Henderson's Laboratory
+# email: your-email@domain.com
+description: Hi! Welcome to the world of academic biomedical research. This site covers introductory topics that you might run into at a university laboratory, with emphasis on basic concepts underlying common protocols. 
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://LeighHenderson.github.io" # the base hostname & protocol for your site
 repository: LeighHenderson/LeighHenderson.github.io
-twitter_username: jekyllrb
-github_username:  jekyll
+# twitter_username: jekyllrb
+github_username: LeighHenderson
 
 # Build settings
 markdown: kramdown
