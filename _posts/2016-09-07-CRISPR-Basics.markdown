@@ -40,6 +40,8 @@ Once the right genomic location is cut, the next goal is to make a specific chan
 
 <img src="/assets/Figure_homology_directed_repair.jpg" alt="Figure. Homology directed repair" style="width:800px">
 
+## Concluding thoughts
+In the introduction, I mentioned that each cell in the body has its own copy of the genome (and *CFTR*). So curing a person of cystic fibrosis would necessitate editing all (or many) of that person’s trillions of cells. This has proven difficult. So get excited about CRISPR/Cas9, but know that there is work to be done to reach cures for genetic disorders. With that in mind, current areas of CRISPR/Cas9 research are: (1) delivery of gene-editing to specific tissues in the body with the eventual goal of reaching the whole body, (2) development of gene-edited cells and organisms for modeling disease, and (3) other uses for gene targeting (using CRISPR with re-engineered versions of Cas9).
 
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">CRISPR Basics</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://LeighHenderson.github.io" property="cc:attributionName" rel="cc:attributionURL">Leigh Henderson</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.

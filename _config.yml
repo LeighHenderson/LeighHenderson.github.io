@@ -20,7 +20,7 @@
 
 title: Leigh Henderson's Laboratory
 # email: your-email@domain.com
-description: Hi! Welcome to the world of academic biomedical research. This site covers introductory topics that you might run into at a university laboratory, with emphasis on basic concepts underlying common protocols. 
+description: Welcome to academic biomedical research. Here's your introduction to the protocols used in university laboratories the world over, with emphasis on basic concepts underlying common protocols. 
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://LeighHenderson.github.io" # the base hostname & protocol for your site
