@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "CRISPR/Cas9"
+title:  "CRISPR Basics"
 date:   2016-09-07 10:14:00 -0400
 categories: CRISPR
 ---
