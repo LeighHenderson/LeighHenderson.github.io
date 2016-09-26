@@ -1,5 +1,3 @@
-# Welcome to Jekyll!
-#
 # This config file is meant for settings that affect your whole blog, values
 # which you are expected to set up once and rarely edit after that. If you find
 # yourself editing these this file very often, consider using Jekyll's data files
@@ -29,7 +27,14 @@ repository: LeighHenderson/LeighHenderson.github.io
 github_username: LeighHenderson
 
 # Build settings
-# markdown: kramdown
-kramdown:
-  input: GFM
+markdown: kramdown
+
+# .sass files in the _sass directory will compile into the
+# css directory when the website is built/served
+sass:
+  sass_dir: _sass
+
+# Custom pages will be organized into the _pages directory
+include: ['_pages']
+
 theme: minima
