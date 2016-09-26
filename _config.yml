@@ -29,5 +29,7 @@ repository: LeighHenderson/LeighHenderson.github.io
 github_username: LeighHenderson
 
 # Build settings
-markdown: kramdown
+# markdown: kramdown
+kramdown:
+  input: GFM
 theme: minima
