@@ -26,6 +26,8 @@ repository: LeighHenderson/LeighHenderson.github.io
 # twitter_username: jekyllrb
 github_username: LeighHenderson
 
+destination: ./_site
+
 # Build settings
 markdown: kramdown
 
