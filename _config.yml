@@ -26,15 +26,11 @@ repository: LeighHenderson/LeighHenderson.github.io
 # twitter_username: jekyllrb
 github_username: LeighHenderson
 
+source: .
 destination: ./_site
 
 # Build settings
 markdown: kramdown
-
-# .sass files in the _sass directory will compile into the
-# css directory when the website is built/served
-sass:
-  sass_dir: _sass
 
 # Custom pages will be organized into the _pages directory
 include: ['_pages']
