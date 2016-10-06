@@ -5,7 +5,7 @@ date:   2016-09-22 03:35:00 -0400
 categories: CRISPR
 ---
 
-Here’s how the CRISPR/Cas9 system is used to gene-edit cells in culture [Link to a post on cell culture with many cell culture protocols]:
+Here’s how the CRISPR/Cas9 system is used to gene-edit [cells in culture]:
 1. Introduce the CRISPR/Cas9 plasmids into cells
 2. Wait for gene-editing to occur
 3. Isolate cells most likely to be edited 
@@ -35,5 +35,7 @@ The goal is to get a bunch of cells with only the desired edit. First, single ce
 ## 5. Find clones with the desired edit
 The DNA from each clone is sequenced [link to DNA sequencing protocol, include FinchTV as a resource on the page]. With luck, clones with the desired edit are found. Cultures of the edited cells are expanded, some are frozen down [link to cell freezing protocol] for safe keeping, and the rest are used! Gene edited clones can be used for many purposes – to study genetic disease in an ideally controlled cell model, to study effects of non-naturally occurring genetic mutations, to study specific cellular processes or proteins, and to be used therapeutically.  
 
+[//]: # (References used above)
+   [cells in culture]: <{{ site.url }}/cell_culture/2016/10/05/Cell-culture-protocols.html>
 
 
