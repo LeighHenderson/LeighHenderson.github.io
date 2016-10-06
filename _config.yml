@@ -28,6 +28,8 @@ repository: LeighHenderson/LeighHenderson.github.io
 # twitter_username: jekyllrb
 github_username: LeighHenderson
 
+logo: "/assets/logo.png"
+
 # Build settings
 markdown: kramdown
 

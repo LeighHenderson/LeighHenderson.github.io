@@ -1,8 +1,7 @@
 ---
-layout: post
+layout: page
 title:  "Cell Culture Protocols"
-date:   2016-10-05 12:14:00 -0400
-categories: cell_culture
+permalink: /cell-culture-protocols/
 ---
 # Protocols for work with different cell lines
 
@@ -22,6 +21,6 @@ categories: cell_culture
 - Differentiation towards airway progenitor cells
 
 [//]: # (References used above)
-   [Thawing frozen cells]: <{{ site.url }}/cell_culture/2016/10/05/PROTOCOL-Thawing-immortalized-cells.html>
-   [Freezing cells]: <{{ site.url }}/cell_culture/2016/10/05/PROTOCOL-Freezing-immortalized-cells.html>
+   [Thawing frozen cells]: <{{ site.url }}/PROTOCOL-thawing_immotalized_cells/>
+   [Freezing cells]: <{{ site.url }}/PROTOCOL-freezing-immotalized-cells/>
 

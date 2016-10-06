@@ -1,8 +1,7 @@
 ---
-layout: post
+layout: page
 title:  "PROTOCOL: Thawing immortalized cells"
-date:   2016-10-05 1:08:00 -0400
-categories: cell_culture
+permalink: /PROTOCOL-thawing_immotalized_cells/
 ---
 # Thawing immortalized cells
 [PDF]({{ site.url }}/assets/PROTOCOL-thawing-immortalized-cells.pdf)

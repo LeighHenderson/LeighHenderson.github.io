@@ -1,8 +1,7 @@
 ---
-layout: post
+layout: page
 title:  "PROTOCOL: Freezing immortalized cells"
-date:   2016-10-05 1:26:00 -0400
-categories: cell_culture
+permalink: /PROTOCOL-freezing-immotalized-cells/
 ---
 # Freezing immortalized cells
 [PDF]({{ site.url }}/assets/PROTOCOL-freezing-immortalized-cells.pdf)

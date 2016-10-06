@@ -2,22 +2,22 @@
 layout: default
 ---
 
+<header>
+  <h1><a href="{{ site.url }}">{{ site.title }}</a></h1>
+</header>
+
+<img src="{{ site.url }}{{ site.logo}}" alt="LCL pipettor logo" width="750px">
+
 <div class="home">
 
-  <img src="/assets/LHL-pipettor-logo-blue-vectorized.png" alt="LCL pipettor logo" style="width=400px">
+  <h1 class="page-heading">Pages</h1>
 
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
+  <ul class="page-list">
+    {% for page in site.pages %} {% if page.title %}
         <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
         </h2>
-      </li>
-    {% endfor %}
+    {% endif %} {% endfor %}
   </ul>
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>

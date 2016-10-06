@@ -20,6 +20,7 @@ You might have noticed: I like learning new things. Web design is my newest proj
 - [ ] Improve search ranking with Google analytics
 
 In the future, I'll learn:
+
 - [ ] Ruby on Rails
 - [ ] JavaScript
 
