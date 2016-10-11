@@ -21,8 +21,8 @@ title: Leigh Henderson's Laboratory
 description: Welcome to academic biomedical research. Here's your introduction to the protocols used in university laboratories the world over, with emphasis on basic concepts underlying common protocols. 
 
 baseurl: "" # the subpath of your site, e.g. /blog
-# url: "https://LeighHenderson.github.io"
-url: "http://localhost:4000" # Use this for development with  "jekyll serve"
+url: "https://LeighHenderson.github.io"
+# url: "http://localhost:4000" # Use this for development with  "jekyll serve"
 
 repository: LeighHenderson/LeighHenderson.github.io
 # twitter_username: jekyllrb

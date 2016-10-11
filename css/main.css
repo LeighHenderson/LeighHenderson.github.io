@@ -1,7 +1,6 @@
 ---
-# Only the main Sass (or css?) file needs front matter (the dashes are enough)
+# Only the main.css or main.scss file needs front matter (the dashes are enough)
 ---
-
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 
 /**
@@ -463,3 +462,5 @@ template {
 [hidden] {
   display: none;
 }
+
+
