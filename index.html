@@ -2,20 +2,30 @@
 layout: default
 ---
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <link rel="stylesheet" href="{{ site.url }}/assets/sass/base.css">
 </head>
 
 <header>
-  <h1><a href="{{ site.url }}">{{ site.title }}</a></h1>
+  <h1><p>{{ site.title }}</p></h1>
 </header>
 
-<img src="{{ site.url }}{{ site.logo}}" alt="LCL pipettor logo" width="750px">
+<img src="{{ site.url }}{{ site.logo}}" alt="LCL pipettor logo" width="100%">
 
-<div class="home">
+<div class="row">
+  <div class="col-3">
+  <p> Welcome </p>
+  </div>
+  <div class="col-9">
+  <p> To the laboratory </p>
+  </div>
+</div>
 
-  <h1 class="page-heading">Pages</h1>
 
-  <ul class="page-list">
+  <h1>Pages</h1>
+
+  <ul>
     {% for page in site.pages %} {% if page.title %}
         <h2>
           <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
@@ -24,5 +34,3 @@ layout: default
   </ul>
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>

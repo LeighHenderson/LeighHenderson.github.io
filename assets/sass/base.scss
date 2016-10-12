@@ -2,7 +2,7 @@
 # Jekyll needs to convert this to a .css format
 ---
 
-$content-width: 800px;
+$content-width: 100%;
 $main: #19CCAA;
 $font-style: 'Open Sans', sans-serif;
 $font-color: #000000;
@@ -13,13 +13,42 @@ $heading-font-color: #425469;
 $light: #E7EDF4;
 $header:  #000000;
 
+/* Apply box-sizing to all elements so that width and height include padding and border */
+
 *,
-*::before,
-*::after {
+*::after,
+*::before {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-} 
+}
+
+/* Grid view setup */
+
+[class*="col-"] {
+    width: 100%;
+    float: left;
+    padding: 5px;
+}
+
+/* Grid view for larger displays (12 column) */
+
+@media only screen and (min-width: 600px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+/* Body, headers, paragraphs, etc. */
 
 body {
     margin: 0;
@@ -52,12 +81,12 @@ h2 {
 a,
 a:visited {
     color: $link-color;
-    text-decoration: underline;
     font-weight: bold;
+    text-decoration: none;
 }
 a:hover {
     color: $link-hover-color;
-    text-decoration: underline;
+    text-decoration: none;
 }
 header {
     background: $header;
@@ -128,6 +157,7 @@ aside {
         }
     }
 }
+
 footer {
     text-align: center;
     padding: 40px;
