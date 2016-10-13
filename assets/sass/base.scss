@@ -45,6 +45,7 @@ $header:  #000000;
     .three-fifths {width: 60%}
     .one-sixth {width: 16.66%}
     .five-sixths {width: 83.33%}
+    .one-seventh {width: 14.28%}
     .column {float: left;}
 }
 
@@ -124,32 +125,28 @@ aside {
     box-shadow: 0px 1px 1px RGBA(4, 25, 54, .1);
     nav {
         float: left;
-        max-width: 800px;
+        max-width: 100%;
         margin: 0 auto;
-        ul {
-            margin: 0;
-            padding: 0;
-            list-style: none;
-            li {
+        margin: 0;
+        padding: 0;
+            a {
                 float: left;
-                position: relative;
-                a {
+                width: 14%;
+                text-align: center;
+                text-decoration: none;
+                display: block;
+                padding: 15px;
+                font-family: 'Muli', sans-serif;
+                line-height: 20px;
+                margin-bottom: -1px;
+                box-shadow: 0;
+                &:hover,
+                &:active {
+                    background: $header;
                     text-decoration: none;
-                    display: inline;
-                    padding: 15px;
-                    font-family: 'Muli', sans-serif;
-                    line-height: 20px;
-                    margin-bottom: -1px;
-                    box-shadow: 0;
-                    &:hover,
-                    &:active {
-                        background: $header;
-                        text-decoration: none;
-                        color: $main;
-                    }
+                    color: $main;
                 }
             }
-        }
         &:after {
             content: '';
             display: table;
