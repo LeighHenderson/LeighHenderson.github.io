@@ -13,10 +13,10 @@ You might have noticed: I like learning new things. Web design is my newest proj
 - [x] Set up my Ruby development environment, starting with rbenv
 - [x] Use Ruby gems
 - [x] Build a website with Jekyll
-- [ ] Design Liquid site templates; make available on GitHub
 - [x] Write in Markdown
-- [ ] Write in HTML
-- [ ] CSS basics
+- [x] Write in HTML
+- [x] Write in CSS
+- [ ] Mobile-first website design
 - [ ] Improve search ranking with Google analytics
 
 In the future, I'll learn:
@@ -24,7 +24,8 @@ In the future, I'll learn:
 - [ ] Ruby on Rails
 - [ ] JavaScript
 
-This website is currently using the Jekyll new theme at:
-{% include icon-github.html username="jekyll" %} /
-[minima](https://github.com/jekyll/minima)
+All this will result in some end products:
 
+- [ ] W3 Schools Certificate in HTML
+- [ ] W3 Schools Certificate in CSS
+- [ ] Design a Liquid site template; make available on GitHub
