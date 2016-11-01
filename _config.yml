@@ -27,4 +27,4 @@ markdown: kramdown
 # Custom pages will be organized into the _pages directory
 include: ['_pages']
 
-theme: minima
+# theme: minima
