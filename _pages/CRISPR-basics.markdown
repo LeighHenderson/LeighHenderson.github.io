@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title:  "CRISPR Basics"
 permalink: /CRISPR_basics/
 ---

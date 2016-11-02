@@ -1,4 +1,5 @@
 # These settings affect the whole site.
+
 # For setting changed often, consider using Jekyll's data files feature.
 # Restart the server process after changing this file.
 # Access site variables via {{ site.title }}, {{ site.email }}, and so on.

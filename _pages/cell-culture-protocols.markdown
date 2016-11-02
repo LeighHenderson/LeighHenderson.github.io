@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title:  "Cell Culture Protocols"
 permalink: /cell-culture-protocols/
 ---
