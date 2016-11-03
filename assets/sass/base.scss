@@ -47,15 +47,6 @@ $header:  #000000;
     .five-sixths {width: 83.33%}
     .one-seventh {width: 14.28%}
     .column {float: left;}
-
-    .grid {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-    }
-    .cell img {
-        width: 50%;
-    }
 }
 
 /* Body, headers, paragraphs, etc. */
@@ -118,20 +109,41 @@ time {
 }
 
 /* Flexbox set-up */
-.container {
-    display: flex;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 1rem;
+.flex-container {
+    /* Order of display properties so that newer overrides older iff newer is supported by browser */
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;     /* NEW - Chrome */
+    display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+    
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+    -webkit-flex-flow: row wrap; /* Safari 6.1+ */
+    flex-flow: row wrap;         /* Everyone else */
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
 }
-.responsive-image {
-    max-width: 100%;
-}
-.cell img {
-    display: block;
+.flex-item {
+    flex-grow: 1;
+
+    background: tomato;
+    padding: 5px;
+    width: 200px;
+    height: 150px;
+    margin-top: 10px;
+
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
 }
 
-/* Aside */
+/* Aside is my header, including nav bar*/
 
 aside {
     position: fixed;
