@@ -1,5 +1,4 @@
 ---
-layout: default
 title:  "ImageJ basics"
 permalink: /ImageJ_basics/
 ---

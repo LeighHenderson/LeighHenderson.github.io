@@ -1,5 +1,4 @@
 ---
-layout: default
 title:  "Methods for editing the genome with CRISPR/Cas9"
 permalink: /CRISPR-methods/
 ---

@@ -1,5 +1,4 @@
 ---
-layout: default
 title:  "PROTOCOL: Thawing immortalized cells"
 permalink: /PROTOCOL-thawing_immotalized_cells/
 ---

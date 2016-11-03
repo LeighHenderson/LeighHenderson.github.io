@@ -13,6 +13,8 @@ $heading-font-color: #425469;
 $light: #E7EDF4;
 $header:  #000000;
 
+$nav-color: #ff7366;
+
 /* Apply box-sizing to all elements so that width and height include padding and border */
 
 *,
@@ -144,7 +146,7 @@ time {
 }
 
 /* Aside is my header, including nav bar*/
-
+/*
 aside {
     position: fixed;
     top: 0;
@@ -183,6 +185,57 @@ aside {
             clear: both;
         }
     }       
+}
+*/
+
+/* Felxbox navigation bar */
+/* mobile-first reworking of nav bar from css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+
+.navigation {
+    background: $nav-color;
+
+    list-style: none;
+    margin:0;
+
+    -webkit-flex-flow: column wrap;
+    flex-flow: column wrap;
+    padding: 0;
+
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+.navigation a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: $font-color;
+
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid rgba(255,255,255,0.3);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.navigation a:hover {
+    background: lighten($nav-color, 10%);
+}
+.navigation li:last-of-type a {
+    border-bottom: none;
+}
+
+@media only screen and (min-width: 600px) {
+    .navigation {
+        -webkit-flex-flow: row wrap;
+        justify-content: space-around;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .navigation {
+        justify-content: flex-end;
+    }
 }
 
 footer {
