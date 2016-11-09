@@ -28,6 +28,15 @@ markdown: kramdown
 # Custom pages will be organized into the _pages directory
 include: ['_pages']
 
+# Exclude Gulp workflow from Jekyll processing
+exclude: [
+    "_dev",
+    "gulpfile.js",
+    "node_modules",
+    "package.json",
+    "npm-debug.log"
+]
+
 # theme: minima
 
 defaults:
