@@ -1,0 +1,222 @@
+/* Apply box-sizing to all elements so that width and height include padding and border */
+*,
+*::after,
+*::before {
+  box-sizing: border-box; }
+
+/* Grid view setup */
+[class*="col-"] {
+  width: 100%;
+  float: left;
+  padding: 5px; }
+
+/* Grid view for larger displays */
+@media only screen and (min-width: 600px) {
+  .whole {
+    width: 100%; }
+  .half {
+    width: 50%; }
+  .one-third {
+    width: 33.33%; }
+  .two-thirds {
+    width: 66.66%; }
+  .one-fourth {
+    width: 25%; }
+  .three-fourths {
+    width: 75%; }
+  .one-fifth {
+    width: 20%; }
+  .two-fifths {
+    width: 40%; }
+  .three-fifths {
+    width: 60%; }
+  .one-sixth {
+    width: 16.66%; }
+  .five-sixths {
+    width: 83.33%; }
+  .one-seventh {
+    width: 14.28%; }
+  .column {
+    float: left; } }
+
+/* Body, headers, paragraphs, etc. */
+body {
+  margin: 0;
+  color: #000000;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.1em;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased; }
+
+h1,
+h2,
+h3 {
+  font-weight: 600;
+  color: #425469;
+  font-family: "Muli", sans-serif;
+  line-height: 1.5; }
+
+h1 {
+  color: #19CCAA;
+  font-size: 2.5em; }
+  h1 a,
+  h1 a:visited {
+    text-decoration: none;
+    color: #19CCAA; }
+
+h2 {
+  font-size: 2em; }
+
+a,
+a:visited {
+  color: #425469;
+  font-weight: bold;
+  text-decoration: none; }
+
+a:hover {
+  color: #ff7366;
+  text-decoration: none; }
+
+header {
+  background: #000000;
+  padding: 0px 15px;
+  text-align: center;
+  margin: 50px 0 0;
+  height: 15vh;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+main {
+  padding: 0 15px;
+  max-width: 100%;
+  margin: 0 auto; }
+
+time {
+  color: #898989; }
+
+/* Flexbox set-up */
+.flex-container {
+  /* Order of display properties so that newer overrides older iff newer is supported by browser */
+  /* OLD - iOS 6-, Safari 3.1-6 */
+  /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;
+  /* TWEENER - IE 10 */
+  /* NEW - Chrome */
+  display: flex;
+  /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  /* Safari 6.1+ */
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  /* Everyone else */
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-line-pack: center;
+  align-content: center; }
+
+.flex-item {
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  background: tomato;
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center; }
+
+/* Aside is my header, including nav bar*/
+/*
+aside {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #ff9966;
+    width: 100%;
+    z-index: 2;
+    border-bottom: 1px solid lighten($light, 30%);
+    box-shadow: 0px 1px 1px RGBA(4, 25, 54, .1);
+    nav {
+        float: left;
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+            a {
+                float: left;
+                width: 14%;
+                text-align: center;
+                text-decoration: none;
+                display: block;
+                padding: 15px;
+                font-family: 'Muli', sans-serif;
+                line-height: 20px;
+                margin-bottom: -1px;
+                box-shadow: 0;
+                &:hover,
+                &:active {
+                    background: $header;
+                    text-decoration: none;
+                    color: $main;
+                }
+            }
+        &:after {
+            content: '';
+            display: table;
+            clear: both;
+        }
+    }       
+}
+*/
+/* Felxbox navigation bar */
+/* mobile-first reworking of nav bar from css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+.navigation {
+  background: #ff7366;
+  list-style: none;
+  margin: 0;
+  -ms-flex-flow: column wrap;
+  flex-flow: column wrap;
+  padding: 0;
+  display: -ms-flexbox;
+  display: flex; }
+
+.navigation a {
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  color: #000000;
+  text-align: center;
+  padding: 10px;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+
+.navigation a:hover {
+  background: #ffa299; }
+
+.navigation li:last-of-type a {
+  border-bottom: none; }
+
+@media only screen and (min-width: 600px) {
+  .navigation {
+    -webkit-flex-flow: row wrap;
+    -ms-flex-pack: distribute;
+    justify-content: space-around; } }
+
+@media only screen and (min-width: 800px) {
+  .navigation {
+    -ms-flex-pack: end;
+    justify-content: flex-end; } }
+
+footer {
+  text-align: center;
+  padding: 40px; }
