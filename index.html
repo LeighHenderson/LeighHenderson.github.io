@@ -12,27 +12,14 @@ layout: default
     <p> Welcome </p>
     </div>
     <div class="two-thirds column">
-    <p> To the laboratory </p>
+    <p> To the experimental laboratory </p>
     </div>
   </div>
 
-  <!-- flex-box trial -->
-  <p> placeholder </p>
-  <ul class="flex-container">
-    <li class="flex-item" style="flex-basis:100%;">1</li>
-    <li class="flex-item">2</li>
-    <li class="flex-item">3</li>
-    <li class="flex-item">4</li>
-    <li class="flex-item">5</li>
-    <li class="flex-item">6</li>
-  </ul>
-
   <h1>Pages</h1>
 
-  <ul>
+  <ul class ="flex-conainer">
     {% for page in site.pages %} {% if page.title %}
-      <h2>
-        <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-      </h2>
+      <li class ="flex-item"><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
     {% endif %} {% endfor %}
   </ul>
