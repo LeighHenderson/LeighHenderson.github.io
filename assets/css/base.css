@@ -128,7 +128,7 @@ time {
   color: white;
   font-weight: bold;
   font-size: 1.2em;
-  text-align: left; }
+  text-align: center; }
 
 /* Felxbox navigation bar */
 /* mobile-first reworking of nav bar from css-tricks.com/snippets/css/a-guide-to-flexbox/ */
@@ -191,6 +191,14 @@ time {
     -ms-flex-flow: row nowrap;
     flex-flow: row nowrap; } }
 
+.footer {
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+@media only screen and (min-width: 600px) {
+  .footer li {
+    width: 200px; } }
+
 footer {
   text-align: center;
-  padding: 40px; }
+  padding: 0; }

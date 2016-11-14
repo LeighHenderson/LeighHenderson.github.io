@@ -135,7 +135,7 @@ time {
     color: white;
     font-weight: bold;
     font-size: 1.2em;
-    text-align: left;
+    text-align: center;
 }
 
 /* Felxbox navigation bar */
@@ -199,8 +199,17 @@ time {
     }
 }
 
+.footer {
+    justify-content: center;
+}
+
+@media only screen and (min-width: 600px) {
+    .footer li {
+        width: 200px;
+    }
+}
 
 footer {
     text-align: center;
-    padding: 40px;
+    padding: 0;
 }
