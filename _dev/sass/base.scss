@@ -8,7 +8,6 @@ $heading-font: 'Muli', sans-serif;
 $heading-font-color: #425469;
 $light: #E7EDF4;
 $header:  #000000;
-
 $nav-color: #ff7366;
 
 /* Apply box-sizing to all elements so that width and height include padding and border */
@@ -51,12 +50,18 @@ body {
     margin: 0;
     color: $font-color;
     font-family: $font-style;
-    font-size: 1.1em;
     line-height: 1.6;
-    -webkit-font-smoothing: antialiased;
+
+    font-size: 16px;
+    @media only screen and (min-width: 800px) {
+        font-size: 18px;
+    }
+    @media only screen and (min-width: 1200px) {
+        font-size: 20px; 
+    }
 }
-h1,
-h2,
+h1, 
+h2, 
 h3 {
     font-weight: 600;
     color: $heading-font-color;
@@ -64,8 +69,9 @@ h3 {
     line-height: 1.5;
 }
 h1 {
+    font-size:3.129em;
+    line-height:1.2;
     color: $main;
-    font-size: 2.5em;
     a,
     a:visited {
         text-decoration: none;
@@ -73,8 +79,12 @@ h1 {
     }
 }
 h2 {
-    font-size: 2em;
+    font-size: 2.3353em;
 }
+h3 {
+    font-size:1.769em;
+}
+
 a,
 a:visited {
     color: $link-color;
@@ -106,29 +116,25 @@ time {
 
 /* Flexbox set-up */
 .flex-container {
-    display: flex;
-    
     padding: 0;
     margin: 0;
     list-style: none;
 
     flex-flow: row wrap;
     justify-content: space-around;
-    align-items: center;
-    align-content: center;
+
+    display: flex;
 }
 .flex-item {
-    flex-grow: 1;
-
-    background: tomato;
+    background: $main;
     padding: 5px;
     width: 200px;
     height: 150px;
     margin-top: 10px;
-    
+
     color: white;
     font-weight: bold;
-    font-size: 1em;
+    font-size: 1.2em;
     text-align: left;
 }
 

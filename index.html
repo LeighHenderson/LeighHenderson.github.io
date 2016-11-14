@@ -2,23 +2,25 @@
 layout: default
 ---
   <header>
-    <h1><p>{{ site.title }}</p></h1>
+    <ul class ="flex-container">
+      <li class="flex-item">{{ site.title }}</li>
+    </ul>
   </header>
 
   <img src="{{ site.url }}{{ site.logo}}" alt="LCL pipettor logo" width="100%">
 
-  <div class="row">
+  <div style="text-align:center" class="row">
     <div class="one-third column">
-    <p> Welcome </p>
+    <p style="background:gray"> Welcome </p>
     </div>
     <div class="two-thirds column">
-    <p> To the experimental laboratory </p>
+    <p style="background:black; color:white"> To the laboratory </p>
     </div>
   </div>
 
   <h1>Pages</h1>
 
-  <ul class ="flex-conainer">
+  <ul class ="flex-container">
     {% for page in site.pages %} {% if page.title %}
       <li class ="flex-item"><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
     {% endif %} {% endfor %}
