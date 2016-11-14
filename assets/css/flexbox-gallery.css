@@ -1,0 +1,50 @@
+/* Flexbox set-up 
+mobile-first */
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  display: -ms-flexbox;
+  display: flex; }
+
+.flex-item {
+  background: #19CCAA;
+  padding: 5px;
+  margin-top: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2em;
+  text-align: center; }
+
+@media only screen and (min-width: 600px) {
+  .flex-container {
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap; }
+  .flex-item {
+    width: 200px; } }
+
+.flex-item:nth-child(1) {
+  background: #19CCAA; }
+
+.flex-item:nth-child(2n) {
+  background: #300CE8;
+  color: white; }
+
+.flex-item:nth-child(3n) {
+  background: #FF0000; }
+
+.flex-item:nth-child(4n) {
+  background: #E8A40C; }
+
+.flex-item:nth-child(5n) {
+  background: #56FF0D; }

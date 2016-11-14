@@ -1,0 +1,58 @@
+/* Flexbox set-up 
+mobile-first */
+$box: #19CCAA;
+
+.flex-container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: stretch;
+
+    display: flex;
+}
+.flex-item {
+    background: $box;
+    padding: 5px;
+    margin-top: 10px;
+
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+@media only screen and (min-width: 600px) {
+    .flex-container {
+        align-items: center ;
+        justify-content: space-around;
+        flex-flow: row wrap;
+    }
+    .flex-item {
+        width: 200px;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .flex-container {
+    }
+}
+
+.flex-item:nth-child(1) {
+    background: #19CCAA;
+}
+.flex-item:nth-child(2n) {
+    background: #300CE8;
+    color: white;
+}
+.flex-item:nth-child(3n) {
+    background: #FF0000;
+}
+.flex-item:nth-child(4n) {
+    background: #E8A40C;
+}
+.flex-item:nth-child(5n) {
+    background: #56FF0D;
+}

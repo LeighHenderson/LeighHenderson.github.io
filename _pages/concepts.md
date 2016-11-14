@@ -1,6 +1,7 @@
 ---
 title: Concepts
 permalink: /concepts/
+layout: navigation
 ---
 # Concepts
 
