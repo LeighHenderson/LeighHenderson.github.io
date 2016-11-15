@@ -1,6 +1,9 @@
 ---
-title:  "CRISPR Basics"
+title: CRISPR Basics
+description: CRISPR is a technique for making specific changes to DNA. Learn how Cas9 and guideRNA bind to the targeted sequence of DNA.
+
 permalink: /CRISPR_basics/
+category: concept
 ---
 # Background
 Every gene is a sequence of the four same bases: A, C, G, and T.  Genetic diseases can occur when that sequence is changed, or mutated, from the usual sequence. For example, a mutation that changes the sequence from ATCTTT to ATT (a deletion of the bases CTT) in the gene *CFTR* can cause the disease cystic fibrosis. 

@@ -1,7 +1,10 @@
 ---
 title: About
+description: You get access to materials I've used to teach undergraduate, graduate, and medical students to do genetics research. I get experience developing and designing websites.
+
 permalink: /about/
 layout: navigation
+category: navigation
 ---
 # About
 

@@ -1,6 +1,9 @@
 ---
-title:  "ImageJ basics"
+title: ImageJ basics
+description: "Learn how to quantify image-based data with ImageJ. Gives a particle counting example (count stars, nuclei, cells, etc.). Covers automation with macros."
+
 permalink: /ImageJ_basics/
+category: tool
 ---
 
 Have you ever wanted to quantify something from an image? For example:

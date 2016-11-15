@@ -1,14 +1,19 @@
 ---
 title: Concepts
+description: Learn the concepts behind common laboratory procedures.
+
 permalink: /concepts/
 layout: navigation
+category: navigation
 ---
 # Concepts
-
-[CRISPR basics] 
-
-[Overview of CRISPR methods]
-
-[//]: #(These are references to be processed by Jekyll)
-   [CRISPR basics]: <{{ site.url }}/CRISPR_basics/>
-   [overview of CRISPR methods]: <{{ site.url }}/CRISPR_methods/>
+<ul class ="flex-container">
+{% for page in site.pages %} 
+    {% if page.category == 'concept' %}
+      <li class ="flex-item">
+        <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}
+        </a>
+    </li>
+    {% endif %} 
+{% endfor %}
+</ul>

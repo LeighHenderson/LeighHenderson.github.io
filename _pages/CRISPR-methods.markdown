@@ -1,6 +1,9 @@
 ---
-title:  "Methods for editing the genome with CRISPR/Cas9"
+title: Methods for editing the genome with CRISPR/Cas9
+description: "(1) Introduce plasmids (2) Wait (3) Isolate edited cells (4) Single cell cloning (5) Find edited clones"
+
 permalink: /CRISPR-methods/
+category: concept
 ---
 
 Here’s how the CRISPR/Cas9 system is used to gene-edit [cells in culture]:

@@ -1,4 +1,0 @@
----
-title: Experiment
-permalink: /experiment/
----
