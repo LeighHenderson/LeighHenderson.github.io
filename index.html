@@ -1,13 +1,16 @@
 ---
 layout: navigation
 ---
-  <header>
-    <ul class ="flex-container">
-      <li style="color: black;"class="flex-item">{{ site.title }}</li>
-    </ul>
-  </header>
-
-  <img src="{{ site.url }}{{ site.logo}}" alt="LCL pipettor logo" width="100%">
+<header>
+  <div class="row">
+    <div class="two-thirds column">
+      <img src="{{ site.url }}{{ site.logo}}" alt="LCL pipettor logo" width="100%">
+    </div>
+    <div class="one-third column" style="background: black">
+      <h1 style="color: white">{{ site.title }}</h1>
+    </div>
+  </div>
+</header>
 
   <div style="text-align:center" class="row">
     <div class="one-third column">

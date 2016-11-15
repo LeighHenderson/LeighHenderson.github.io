@@ -1,14 +1,22 @@
-$content-width: 100%;
-$main: #19CCAA;
 $font-style: 'Open Sans', sans-serif;
-$font-color: #000000;
-$link-color: #425469;
-$link-hover-color: #F24C4E;
 $heading-font: 'Muli', sans-serif;
-$heading-font-color: #425469;
-$light: #E7EDF4;
-$header:  #000000;
-$nav-color: #F24C4E;
+
+/* Colors 
+Thanks to Tropical theme at https://designschool.canva.com*/
+$blue: #67CCFF;
+$teal: #1FB58F;
+$yellow: #EAB126;
+$salmon: #F24C4E;
+$green: #1B7B34;
+
+$nav-color: $salmon;
+
+$font-color: #000000;
+$h1-font-color: $green;
+
+$link-color: #202020;
+$link-hover-color: #FFFFFF;
+
 
 /* Apply box-sizing to all elements so that width and height include padding and border */
 
@@ -20,10 +28,11 @@ $nav-color: #F24C4E;
 
 /* Grid view setup */
 
-[class*="col-"] {
+.column {
     width: 100%;
     float: left;
-    padding: 5px;
+    padding: 0;
+    margin: 0;
 }
 
 /* Grid view for larger displays */
@@ -41,7 +50,6 @@ $nav-color: #F24C4E;
     .one-sixth {width: 16.66%}
     .five-sixths {width: 83.33%}
     .one-seventh {width: 14.28%}
-    .column {float: left;}
 }
 
 /* Body, headers, paragraphs, etc. */
@@ -50,7 +58,6 @@ body {
     margin: 0;
     color: $font-color;
     font-family: $font-style;
-    line-height: 1.6;
 
     font-size: 16px;
     @media only screen and (min-width: 800px) {
@@ -64,19 +71,14 @@ h1,
 h2, 
 h3 {
     font-weight: 600;
-    color: $heading-font-color;
     font-family: $heading-font;
     line-height: 1.5;
+    margin: 0;
 }
 h1 {
     font-size:3.129em;
     line-height:1.2;
-    color: $main;
-    a,
-    a:visited {
-        text-decoration: none;
-        color: $main;
-    }
+    color: $h1-font-color;
 }
 h2 {
     font-size: 2.3353em;
@@ -95,47 +97,9 @@ a:hover {
     color: $link-hover-color;
     text-decoration: none;
 }
-header {
-    background: $header;
-    padding: 0px 15px;
-    text-align: center;
-    margin: 50px 0 0;
-    height: 15vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 main {
-    padding: 0 15px;
-    max-width: $content-width;
-    margin: 0 auto;
-}
-time {
-    color: #898989;
-}
-
-/* Flexbox set-up */
-.flex-container {
     padding: 0;
-    margin: 0;
-    list-style: none;
-
-    flex-flow: row wrap;
-    justify-content: space-around;
-
-    display: flex;
-}
-.flex-item {
-    background: $main;
-    padding: 5px;
-    width: 200px;
-    height: 150px;
-    margin-top: 10px;
-
-    color: white;
-    font-weight: bold;
-    font-size: 1.2em;
-    text-align: center;
+    margin: 0 auto;
 }
 
 /* Felxbox navigation bar */
@@ -207,9 +171,4 @@ time {
     .footer li {
         width: 200px;
     }
-}
-
-footer {
-    text-align: center;
-    padding: 0;
 }

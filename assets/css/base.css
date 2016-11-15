@@ -1,3 +1,5 @@
+/* Colors 
+Thanks to Tropical theme at https://designschool.canva.com*/
 /* Apply box-sizing to all elements so that width and height include padding and border */
 *,
 *::after,
@@ -5,10 +7,11 @@
   box-sizing: border-box; }
 
 /* Grid view setup */
-[class*="col-"] {
+.column {
   width: 100%;
   float: left;
-  padding: 5px; }
+  padding: 0;
+  margin: 0; }
 
 /* Grid view for larger displays */
 @media only screen and (min-width: 600px) {
@@ -35,16 +38,13 @@
   .five-sixths {
     width: 83.33%; }
   .one-seventh {
-    width: 14.28%; }
-  .column {
-    float: left; } }
+    width: 14.28%; } }
 
 /* Body, headers, paragraphs, etc. */
 body {
   margin: 0;
   color: #000000;
   font-family: "Open Sans", sans-serif;
-  line-height: 1.6;
   font-size: 16px; }
   @media only screen and (min-width: 800px) {
     body {
@@ -57,18 +57,14 @@ h1,
 h2,
 h3 {
   font-weight: 600;
-  color: #425469;
   font-family: "Muli", sans-serif;
-  line-height: 1.5; }
+  line-height: 1.5;
+  margin: 0; }
 
 h1 {
   font-size: 3.129em;
   line-height: 1.2;
-  color: #19CCAA; }
-  h1 a,
-  h1 a:visited {
-    text-decoration: none;
-    color: #19CCAA; }
+  color: #1B7B34; }
 
 h2 {
   font-size: 2.3353em; }
@@ -78,57 +74,17 @@ h3 {
 
 a,
 a:visited {
-  color: #425469;
+  color: #202020;
   font-weight: bold;
   text-decoration: none; }
 
 a:hover {
-  color: #F24C4E;
+  color: #FFFFFF;
   text-decoration: none; }
 
-header {
-  background: #000000;
-  padding: 0px 15px;
-  text-align: center;
-  margin: 50px 0 0;
-  height: 15vh;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -ms-flex-align: center;
-  align-items: center; }
-
 main {
-  padding: 0 15px;
-  max-width: 100%;
-  margin: 0 auto; }
-
-time {
-  color: #898989; }
-
-/* Flexbox set-up */
-.flex-container {
   padding: 0;
-  margin: 0;
-  list-style: none;
-  -ms-flex-flow: row wrap;
-  flex-flow: row wrap;
-  -ms-flex-pack: distribute;
-  justify-content: space-around;
-  display: -ms-flexbox;
-  display: flex; }
-
-.flex-item {
-  background: #19CCAA;
-  padding: 5px;
-  width: 200px;
-  height: 150px;
-  margin-top: 10px;
-  color: white;
-  font-weight: bold;
-  font-size: 1.2em;
-  text-align: center; }
+  margin: 0 auto; }
 
 /* Felxbox navigation bar */
 /* mobile-first reworking of nav bar from css-tricks.com/snippets/css/a-guide-to-flexbox/ */
@@ -198,7 +154,3 @@ time {
 @media only screen and (min-width: 600px) {
   .footer li {
     width: 200px; } }
-
-footer {
-  text-align: center;
-  padding: 0; }

@@ -1,27 +1,33 @@
 /* Flexbox set-up 
 mobile-first */
-$box: #19CCAA;
-
 .flex-container {
     padding: 0;
     margin: 0;
+    
     list-style: none;
 
+    display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
     align-content: stretch;
-
-    display: flex;
 }
 .flex-item {
-    background: $box;
-    padding: 5px;
-    margin-top: 10px;
+    background: #FFFFFF;
+    padding: 0;
+    margin: 0;
 
     color: white;
     font-weight: bold;
     font-size: 1.2em;
     text-align: center;
+    justify-content: center;
+    padding: 30px 15px 30px 15px;
+
+    flex-grow: 1;
+    width: 100%;
+
+    a {
+    }
 }
 
 @media only screen and (min-width: 600px) {
@@ -31,12 +37,16 @@ $box: #19CCAA;
         flex-flow: row wrap;
     }
     .flex-item {
-        width: 200px;
+        height: 150px;
+
+        flex-basis: 33.33%;
+        min-width: 0;
     }
 }
 
 @media only screen and (min-width: 800px) {
-    .flex-container {
+    .flex-item {
+        flex-basis: 25%;
     }
 }
 
