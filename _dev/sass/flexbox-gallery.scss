@@ -40,19 +40,19 @@ $box: #19CCAA;
     }
 }
 
-.flex-item:nth-child(1) {
-    background: #19CCAA;
+.flex-item:nth-child(5n+1) {
+    background: #F24C4E;
 }
-.flex-item:nth-child(2n) {
-    background: #300CE8;
+.flex-item:nth-child(5n+2) {
+    background: #1FB58F;
     color: white;
 }
-.flex-item:nth-child(3n) {
-    background: #FF0000;
+.flex-item:nth-child(5n+3) {
+    background: #67CCFF;
 }
-.flex-item:nth-child(4n) {
-    background: #E8A40C;
+.flex-item:nth-child(5n+4) {
+    background: #1B7834;
 }
-.flex-item:nth-child(5n) {
-    background: #56FF0D;
+.flex-item:nth-child(5n+5) {
+    background: #EAB126;
 }
