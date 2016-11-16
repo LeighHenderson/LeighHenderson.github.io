@@ -2,7 +2,7 @@
 title: Protocols
 
 permalink: /protocols/
-layout: navigation
+stylesheets: flexbox-gallery
 category: navigation
 ---
 # Protocols

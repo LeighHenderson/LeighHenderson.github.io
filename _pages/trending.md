@@ -2,7 +2,7 @@
 title: Trending
 
 permalink: /trending/
-layout: navigation
+stylesheets: flexbox-gallery
 category: navigation
 ---
 # Trending

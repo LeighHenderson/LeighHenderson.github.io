@@ -2,7 +2,7 @@
 title: Tools
 
 permalink: /tools/
-layout: navigation
+stylesheets: flexbox-gallery
 category: navigation
 ---
 # Tools

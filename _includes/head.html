@@ -12,5 +12,12 @@
 <!-- main.css is normalize.css-->
 <link rel="stylesheet" href="{{ site.url }}/assets/css/main.css">
 
-<!-- my own stylesheet -->
+<!-- whole site stylesheet -->
 <link rel="stylesheet" href="{{ site.url }}/assets/css/base.css">
+
+<!-- page-specific stylesheet -->
+{% if page.stylesheets and page.stylesheets != '' %}
+    {% for stylesheet in page.stylesheets %} 
+    <link rel="stylesheet" href="{{ site.url }}/assets/css/{{ stylesheet }}.css"> 
+    {% endfor %}
+{% endif %}

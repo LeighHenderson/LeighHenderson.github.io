@@ -1,0 +1,3 @@
+.banner {
+  background-image: url("{{ site.url }}/assets/lorikeets-background.jpg");
+  padding: 0; }

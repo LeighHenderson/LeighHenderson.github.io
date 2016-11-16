@@ -3,7 +3,7 @@ title: Concepts
 description: Learn the concepts behind common laboratory procedures.
 
 permalink: /concepts/
-layout: navigation
+stylesheets: flexbox-gallery
 category: navigation
 ---
 # Concepts
