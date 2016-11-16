@@ -5,37 +5,41 @@ description: Welcome to academic biomedical research. Here's your introduction t
 layout: default
 category: navigation
 stylesheets: 
-  - home-page
   - flexbox-gallery
+  - home-page
 ---
 <header>
-  <div class="row">
-    <div class="two-thirds column">
-      <img src="{{ site.url }}{{ site.logo}}" alt="LCL pipettor logo" width="100%">
-    </div>
-    <div class="one-third column" style="background: black">
-      <h1 style="color: white">{{ site.title }}</h1>
+  <div class="container">
+    <div class="row">
+      <div class="two-thirds column">
+        <img src="{{ site.url }}{{ site.logo}}" alt="LCL pipettor logo" width="100%">
+      </div>
+      <div class="one-third column" style="background: black">
+        <h3 style="color: white">{{ site.title }}</h3>
+      </div>
     </div>
   </div>
 </header>
 
-<section id="banner">
+<div> </div>
 
-  <div style="text-align:center" class="row">
-    <div class="one-third column">
+<!-- playing with grid
+<div style="text-align:center" class="row">
+  <div class="one-third column">
     <p style="background:gray"> Welcome </p>
     </div>
     <div class="two-thirds column">
     <p style="background:black; color:white"> To the laboratory </p>
-    </div>
   </div>
+</div>
+-->
 
-  <h1>Pages</h1>
-
-  <ul class ="flex-container">
+<div class="container">
+  <ul class="flex-container">
     {% for page in site.pages %} 
       {% if page.title and page.category != 'navigation' %}
         <li class ="flex-item"><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
       {% endif %} 
     {% endfor %}
   </ul>
+</div>
