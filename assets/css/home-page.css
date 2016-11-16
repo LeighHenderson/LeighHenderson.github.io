@@ -1,3 +1,10 @@
-.banner {
-  background-image: url("{{ site.url }}/assets/lorikeets-background.jpg");
+body {
+  background-image: url("/assets/lorikeet-background.jpg"), url("/assets/background-texture.jpg");
+  background-size: 1600px, 256px;
+  background-repeat: no-repeat, repeat;
+  background-position: center -70px, top left;
   padding: 0; }
+
+@media only screen and (min-width: 600px) {
+  body {
+    background-position: center -170px, top left; } }
