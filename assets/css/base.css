@@ -53,11 +53,11 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   background-color: #c0a286;
-  background-image: url("/assets/background-texture.gif");
-  background-size: 64px;
-  background-repeat: repeat;
-  background-position: top left;
-  background-attachment: fixed;
+  background-image: url("/assets/background-texture.gif"), url("/assets/background-texture.gif");
+  background-size: 64px, 64px;
+  background-repeat: repeat, repeat;
+  background-position: top left -3, top left;
+  background-attachment: fixed, scroll;
   padding: 0; }
   @media only screen and (min-width: 800px) {
     body {
@@ -100,6 +100,13 @@ main {
   padding: 15px 15px;
   max-width: 1200px;
   background-color: white; }
+
+@media only screen and (min-width: 600px) {
+  main {
+    margin: 15px auto; } }
+
+img {
+  max-width: 100%; }
 
 /* Felxbox navigation bar */
 /* mobile-first reworking of nav bar from css-tricks.com/snippets/css/a-guide-to-flexbox/ */
