@@ -1,6 +1,7 @@
 ---
 title: ImageJ basics
 description: "Learn how to quantify image-based data with ImageJ. Gives a particle counting example (count stars, nuclei, cells, etc.). Covers automation with macros."
+graphical-abstract: Screencap_ImageJ_StarCounting_Threshold.jpg
 
 permalink: /ImageJ_basics/
 category: tool

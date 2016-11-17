@@ -108,7 +108,7 @@ main {
 img {
   max-width: 100%; }
 
-/* Felxbox navigation bar */
+/* Flexbox navigation bar */
 /* mobile-first reworking of nav bar from css-tricks.com/snippets/css/a-guide-to-flexbox/ */
 .navigation {
   /* flex-container */

@@ -46,3 +46,25 @@ stylesheets:
     {% endfor %}
   </ul>
 </div>
+
+<div style="height:50px;">
+</div>
+
+<!-- future direction: slideshow that goes through graphical-abstract images
+
+<div>
+  <ul class="flex-container" style="flex-direction:column; width:150px;">
+    {% for page in site.pages %} 
+      {% if page.graphical-abstract and page.graphical-abstract != '' %}
+        <li class ="flex-item">
+          <img src="{{ site.url }}/assets/{{ page.graphical-abstract }}">
+        </li>
+        <li class ="flex-item">
+          <p>{{ page.title }}</p>
+        </li>
+      {% endif %} 
+    {% endfor %}
+  </ul>
+</div>
+
+-->

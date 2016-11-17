@@ -12,26 +12,26 @@ As a graduate student in genetics, I mentored dozens of undergraduate, graduate,
 
 You might have noticed: I like learning new things. Web design is my newest project, albeit *in silico*. By working on this website, I'd like to earn the following stripes:
 
-- [x] Bash basics (no cheating with GUIs)
-- [x] Version control with git and GitHub
-- [x] Package management with Homebrew
-- [x] Set up my Ruby development environment, starting with rbenv
-- [x] Use Ruby gems
-- [x] Build a website with Jekyll
-- [x] Write in Markdown
-- [x] Write in HTML
-- [x] Write in CSS
-- [x] Mobile-first website design
-- [ ] Improve search ranking with Google analytics
+<i class="fa fa-check-circle"> Bash basics (no cheating with GUIs)  
+<i class="fa fa-check-circle"> Version control with git and GitHub  
+<i class="fa fa-check-circle"> Package management with Homebrew  
+<i class="fa fa-check-circle"> Set up my Ruby development environment, starting with rbenv  
+<i class="fa fa-check-circle"> Use Ruby gems  
+<i class="fa fa-check-circle"> Build a website with Jekyll  
+<i class="fa fa-check-circle"> Write in Markdown  
+<i class="fa fa-check-circle"> Write in HTML  
+<i class="fa fa-check-circle"> Write in CSS  
+<i class="fa fa-check-circle"> Responsive, mobile-first website design  
+<i class="fa fa-circle-o"> Improve search ranking with Google analytics  
 
 In the future, I'll learn:
 
-- [ ] Ruby on Rails
-- [ ] JavaScript
+<i class="fa fa-circle-o"> Ruby on Rails  
+<i class="fa fa-circle-o"> JavaScript  
 
 All this will result in some end products:
 
-- [ ] W3 Schools Certificate in HTML
-- [ ] W3 Schools Certificate in CSS
-- [ ] Design a Liquid site template; make available on GitHub
+<i class="fa fa-circle-o"> W3 Schools Certificate in HTML  
+<i class="fa fa-circle-o"> W3 Schools Certificate in CSS  
+<i class="fa fa-circle-o"> Design a Liquid site template; make available on GitHub  
 
