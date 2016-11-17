@@ -3,9 +3,12 @@ body {
   background-image: url("/assets/background-texture.gif"), url("/assets/lorikeet-background.jpg");
   background-size: 64px, 1600px;
   background-repeat: repeat, no-repeat;
-  background-position: top left, center -70px;
+  background-position: top left, 56% -85px;
   background-attachment: fixed, scroll;
   padding: 0; }
+
+main {
+  background-color: transparent; }
 
 @media only screen and (min-width: 600px) {
   body {

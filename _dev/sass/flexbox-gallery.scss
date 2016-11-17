@@ -1,5 +1,12 @@
 /* Flexbox set-up 
 mobile-first */
+
+$color1: #F24C4E; /* salmon */
+$color2: #1FB58F; /* teal */
+$color3: #67CCFF; /* blue */
+$color4: #1B7B34;  /* green */
+$color5: #EAB126; /* yellow */
+
 .flex-container {
     padding: 0;
     margin: 0;
@@ -26,7 +33,8 @@ mobile-first */
     flex-grow: 1;
     width: 100%;
 
-    a {
+    a:hover {
+        color: black;
     }
 }
 
@@ -51,18 +59,41 @@ mobile-first */
 }
 
 .flex-item:nth-child(5n+1) {
-    background: #F24C4E;
+    background: $color1;
 }
+.flex-item:nth-child(5n+1):hover {
+        background: lighten($color1, 10%);
+}
+
 .flex-item:nth-child(5n+2) {
-    background: #1FB58F;
+    background: $color2;
     color: white;
 }
+.flex-item:nth-child(5n+2):hover {
+        background: lighten($color2, 10%);
+}
+
 .flex-item:nth-child(5n+3) {
-    background: #67CCFF;
+    background: $color3;
 }
+.flex-item:nth-child(5n+3):hover {
+        background: lighten($color3, 10%);
+}
+
 .flex-item:nth-child(5n+4) {
-    background: #1B7834;
+    background: $color4;
 }
+.flex-item:nth-child(5n+4):hover {
+        background: lighten($color4, 10%);
+}
+
 .flex-item:nth-child(5n+5) {
-    background: #EAB126;
+    background: $color5;
+}
+.flex-item:nth-child(5n+5):hover {
+        background: lighten($color5, 10%);
+}
+
+main {
+    background-color: transparent;
 }

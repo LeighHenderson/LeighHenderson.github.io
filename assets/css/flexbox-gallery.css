@@ -1,5 +1,10 @@
 /* Flexbox set-up 
 mobile-first */
+/* salmon */
+/* teal */
+/* blue */
+/* green */
+/* yellow */
 .flex-container {
   padding: 0;
   margin: 0;
@@ -27,6 +32,8 @@ mobile-first */
   -ms-flex-positive: 1;
   flex-grow: 1;
   width: 100%; }
+  .flex-item a:hover {
+    color: black; }
 
 @media only screen and (min-width: 600px) {
   .flex-container {
@@ -50,15 +57,33 @@ mobile-first */
 .flex-item:nth-child(5n+1) {
   background: #F24C4E; }
 
+.flex-item:nth-child(5n+1):hover {
+  background: #f57c7d; }
+
 .flex-item:nth-child(5n+2) {
   background: #1FB58F;
   color: white; }
 
+.flex-item:nth-child(5n+2):hover {
+  background: #2cdbaf; }
+
 .flex-item:nth-child(5n+3) {
   background: #67CCFF; }
 
+.flex-item:nth-child(5n+3):hover {
+  background: #9addff; }
+
 .flex-item:nth-child(5n+4) {
-  background: #1B7834; }
+  background: #1B7B34; }
+
+.flex-item:nth-child(5n+4):hover {
+  background: #24a546; }
 
 .flex-item:nth-child(5n+5) {
   background: #EAB126; }
+
+.flex-item:nth-child(5n+5):hover {
+  background: #efc255; }
+
+main {
+  background-color: transparent; }
