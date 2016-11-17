@@ -1,14 +1,17 @@
 body {
-    background-image: url('/assets/lorikeet-background.jpg' ), url('/assets/background-texture.jpg');
-    background-size: 1600px, 256px;
-    background-repeat: no-repeat, repeat;
-    background-position: center -70px, top left;
+    background-color: rgb(192, 162, 134);
+    background-image: url('/assets/background-texture.gif'),
+                      url('/assets/lorikeet-background.jpg' );
+    background-size: 64px, 1600px;
+    background-repeat: repeat, no-repeat;
+    background-position: top left, center -70px;
+    background-attachment: fixed, scroll;
     padding: 0;
 }
 
 @media only screen and (min-width: 600px) {
     body {
-        background-position: center -170px, top left;
+        background-position: top left, center -170px;
     }
     
 }
