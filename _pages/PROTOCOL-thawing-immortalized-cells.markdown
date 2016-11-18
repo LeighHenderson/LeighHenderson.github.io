@@ -5,7 +5,8 @@ description: Materials and methods for thawing immortalized cells.
 permalink: /PROTOCOL-thawing_immotalized_cells/
 category: protocol
 ---
-# Thawing immortalized cells
+# {{ page.title }}
+
 [PDF]({{ site.url }}/assets/PROTOCOL-thawing-immortalized-cells.pdf)
 
 ### Reagents:

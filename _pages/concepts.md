@@ -6,7 +6,7 @@ permalink: /concepts/
 stylesheets: flexbox-gallery
 category: navigation
 ---
-# Concepts
+# {{ page.title }}
 <ul class ="flex-container">
 {% for page in site.pages %} 
     {% if page.category == 'concept' %}

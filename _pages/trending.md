@@ -5,7 +5,7 @@ permalink: /trending/
 stylesheets: flexbox-gallery
 category: navigation
 ---
-# Trending
+# {{ page.title }}
 <ul class ="flex-container">
 {% for page in site.pages %} 
     {% if page.category == 'trending' %}

@@ -6,6 +6,7 @@ graphical-abstract: Screencap_ImageJ_StarCounting_Threshold.jpg
 permalink: /ImageJ_basics/
 category: tool
 ---
+# {{ page.title }}
 
 Have you ever wanted to quantify something from an image? For example:
 

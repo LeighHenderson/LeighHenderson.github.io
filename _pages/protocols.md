@@ -5,7 +5,7 @@ permalink: /protocols/
 stylesheets: flexbox-gallery
 category: navigation
 ---
-# Protocols
+# {{ page.title }}
 
 <ul class ="flex-container">
 {% for page in site.pages %} 

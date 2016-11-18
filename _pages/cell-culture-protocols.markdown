@@ -5,7 +5,7 @@ description: Protocols for work with different cell lines
 permalink: /cell-culture-protocols/
 category: protocol
 ---
-# Protocols for work with different cell lines
+# {{ page.title }}
 
 ## Immortal cell lines
 - [Thawing frozen cells]

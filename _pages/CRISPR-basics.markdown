@@ -6,7 +6,8 @@ graphical-abstract: Figure_Cas9_guideRNA_DNA_complex.jpg
 permalink: /CRISPR_basics/
 category: concept
 ---
-# Background
+# {{ page.title }}
+## Background
 Every gene is a sequence of the four same bases: A, C, G, and T.  Genetic diseases can occur when that sequence is changed, or mutated, from the usual sequence. For example, a mutation that changes the sequence from ATCTTT to ATT (a deletion of the bases CTT) in the gene *CFTR* can cause the disease cystic fibrosis. 
 9 is a technique for gene editing. It allows for the introduction of mutations at specific locations in the genome.
 
@@ -18,10 +19,10 @@ What if it were possible to those 3 bases back into the gene *CFTR*? Each cell i
 
 Making specific changes to the genome is the goal of gene-editing. CRISPR/Cas9 is a technique for gene-editing.
 
-# How CRISPR/Cas9 works
+## How CRISPR/Cas9 works
 There are two problems in gene editing: (1) finding the right spot in the genome and (2) making the desired edit. 
 
-## (1) Finding the right spot
+### (1) Finding the right spot
 
 In the maze of the 3.2 billion bases of the human genome, how does one find the right couple of bases to edit? The base pairs are too small to see with any microscope, so dissection is not an option. Fortunately, nature has come up with ways to target specific sequences of DNA. For example, the bacterial protein Cas9 specifically binds to harmful viral DNA sequences with the help of a special RNA sequence. This RNA sequence is transcribed from the CRISPR region of the bacterial genome, hence the term CRISPR/Cas9. When Cas9 binds DNA, it cuts the DNA strand into two pieces. Cutting apart viral DNA destroys it and protects the bacteria from harm. Some clever scientists, including [Mali et al.] and [Le Cong et al.], adapted the bacterial CRISPR/Cas9 system for use as a gene-editing tool. Cutting apart genomic DNA is the first step in gene editing.
 
@@ -37,7 +38,7 @@ In the maze of the 3.2 billion bases of the human genome, how does one find the 
 
 > **Figure 4.** The Cas9 + guideRNA complex bound to genomic DNA. Genomic DNA with the sequence of CFTR near the F508del mutation is shown in blue. Part of the genomic DNA has "unzipped" and one strand is bound to the guideRNA. Cas9 will break the DNA near the location of the scissors shown in the figure.
 
-## (2) Making the desired edit
+### (2) Making the desired edit
 Once the right genomic location is cut, the next goal is to make a specific change in the DNA sequence. For example, reintroduction of the missing CTT base pairs into the gene *CFTR*. This is actually the easy part of gene-editing. Breaks in DNA structure trigger cellular DNA damage repair pathways. The homology directed repair pathway uses a template sequence to repair DNA breaks. Making the desired edit therefore involves the introduction of a template sequence with the edit. The cell incorporates the edit during the natural DNA repair process.
 
 <img src="/assets/Figure_homology_directed_repair.jpg" alt="Figure. Homology directed repair" style="width:800px">

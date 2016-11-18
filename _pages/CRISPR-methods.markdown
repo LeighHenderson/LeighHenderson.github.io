@@ -6,6 +6,7 @@ graphical-abstract: Figure_CRISPR_methods_overview.jpg
 permalink: /CRISPR-methods/
 category: concept
 ---
+# {{ page.title }}
 
 Here’s how the CRISPR/Cas9 system is used to gene-edit [cells in culture]:
 1. Introduce the CRISPR/Cas9 plasmids into cells

@@ -6,10 +6,11 @@ layout: default
 permalink: /PROTOCOL-freezing-immotalized-cells/
 category: protocol
 ---
-# Freezing immortalized cells
+# {{ page.title }}
+
 [PDF]({{ site.url }}/assets/PROTOCOL-freezing-immortalized-cells.pdf)
 
-### Materials
+## Materials
 Freezing media: 90% fetal bovine serum (FBS) + 10% DMSO
 Cell media
 Phosphate buffered saline (PBS, 1X, calcium- and magnesium-free)
@@ -17,7 +18,7 @@ Trypsin-EDTA (0.25% w/v)
 Pre-labeled cryovials
 Mr. Frosty container
 
-### Protocol
+## Protocol
 1. Aspirate cell media
 2. Rinse 1X with PBS
    a. This removes traces of trypsin-inhibiting serum from the cells

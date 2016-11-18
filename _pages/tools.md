@@ -5,7 +5,7 @@ permalink: /tools/
 stylesheets: flexbox-gallery
 category: navigation
 ---
-# Tools
+# {{ page.title }}
 <ul class ="flex-container">
 {% for page in site.pages %} 
     {% if page.category == 'tool' %}
