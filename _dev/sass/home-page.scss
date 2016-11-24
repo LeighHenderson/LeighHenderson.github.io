@@ -1,16 +1,3 @@
-/* original
-body {
-    background-color: rgb(192, 162, 134);
-    background-image: url('/assets/background-texture.gif'),
-                      url('/assets/lorikeet-background.jpg' );
-    background-size: 64px, 1000px;
-    background-repeat: repeat, no-repeat;
-    background-position: top left, 48% 20px;
-    background-attachment: fixed, scroll;
-    padding: 0;
-} 
-*/
-
 body {
     background-color: rgb(192, 162, 134);
     background-image: url('/assets/background-texture.gif');
@@ -21,35 +8,35 @@ body {
     padding: 0;
 }
 
+main {
+    background-color: transparent;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 1600px;
+}
+
 .crop-height {
-    background-color: rgb(192, 162, 134);
-    background-image: url('/assets/lorikeet-background.jpg' );
-    background-size: 1000px;
-    background-repeat: no-repeat;
-    background-position: 48% -120px;
-    background-attachment: scroll;
+    background-image: url('/assets/background-texture.gif'),
+                      url('/assets/lorikeet-background.jpg' );
+    background-size: 64px, 1000px;
+    background-repeat: repeat, no-repeat;
+    background-position: top left, 48% -120px;
+    background-attachment: fixed, scroll;
     padding: 0;
 
     height: 400px;
 }
-
-main {
-    background-color: transparent;
-}
-
 @media only screen and (min-width: 600px) {
     .crop-height {
-        background-position: center -170px;
-        background-size: 1200px;
-        background-position: 48% -160px;
+        background-position: top left, 48% -100px;
+        background-size: 64px, 800px;
     }
     
 }
-
 @media only screen and (min-width: 800px) {
     .crop-height {
-        background-position: center -220px;
-        background-size: 1600px;
+        background-position: top left, center -230px;
+        background-size: 64px, 1600px;
     }
     
 }

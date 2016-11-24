@@ -112,7 +112,7 @@ img {
 /* mobile-first reworking of nav bar from css-tricks.com/snippets/css/a-guide-to-flexbox/ */
 .navigation {
   /* flex-container */
-  background: #F24C4E;
+  background: #444444;
   width: 100%;
   list-style: none;
   margin: 0;
@@ -126,22 +126,25 @@ img {
 
 .navigation a {
   /* flex-item */
+  color: white;
   -ms-flex-positive: 1;
   flex-grow: 1;
   text-decoration: none;
   display: block;
-  color: #000000;
   height: 30px;
   text-align: center;
   padding: 3px;
   border-top: 1px solid rgba(255, 255, 255, 0.3);
   border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
 
+.navigation a.visited {
+  color: white; }
+
 .navigation a.logo {
-  padding: 2px; }
+  padding: 6px; }
 
 .navigation a:hover {
-  background: #f57c7d; }
+  background: #5e5e5e; }
 
 .navigation li:last-of-type a {
   border-bottom: none; }

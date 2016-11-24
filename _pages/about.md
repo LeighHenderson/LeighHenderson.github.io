@@ -22,7 +22,7 @@ You might have noticed: I like learning new things. Web design is my newest proj
 <i class="fa fa-check-circle"> Write in HTML  
 <i class="fa fa-check-circle"> Write in CSS  
 <i class="fa fa-check-circle"> Responsive, mobile-first website design  
-<i class="fa fa-circle-o"> Improve search ranking with Google analytics  
+<i class="fa fa-circle-o"> Improve search ranking with Google analytics 
 
 In the future, I'll learn:
 

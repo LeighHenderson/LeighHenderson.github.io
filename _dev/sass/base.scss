@@ -9,7 +9,8 @@ $yellow: #EAB126;
 $salmon: #F24C4E;
 $green: #1B7B34;
 
-$nav-color: $salmon;
+$nav-background: #444444;
+$nav-color: white;
 
 $font-color: #000000;
 $h1-font-color: $green;
@@ -132,7 +133,7 @@ img {
 /* mobile-first reworking of nav bar from css-tricks.com/snippets/css/a-guide-to-flexbox/ */
 
 .navigation {   /* flex-container */
-    background: $nav-color;
+    background: $nav-background;
     width: 100%;
 
     list-style: none;
@@ -144,21 +145,24 @@ img {
     display: flex;
 }
 .navigation a {   /* flex-item */
+    color: $nav-color;
     flex-grow: 1;
     text-decoration: none;
     display: block;
-    color: $font-color;
     height: 30px;
     text-align: center;
     padding: 3px;
     border-top: 1px solid rgba(255,255,255,0.3);
     border-bottom: 1px solid rgba(0,0,0,0.1);
 }
+.navigation a.visited {
+    color: lighten($nav-color, 10%);
+}
 .navigation a.logo {
-    padding: 2px;
+    padding: 6px;
 }
 .navigation a:hover {
-    background: lighten($nav-color, 10%);
+    background: lighten($nav-background, 10%);
 }
 .navigation li:last-of-type a {
     border-bottom: none;
