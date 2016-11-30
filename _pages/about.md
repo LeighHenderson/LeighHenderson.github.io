@@ -8,6 +8,8 @@ category: navigation
 ---
 # About
 
+<img src="/assets/Github_labtocat.png" alt="Labtocat avatar from the Github Octodex" style ="width:150px">
+
 As a graduate student in genetics, I mentored dozens of undergraduate, graduate, and medical students through projects in the laboratory. Along the way, I wrote out protocols to help my students learn. Now I'm making that information available to *you*. I'll also post background information about how each protocol works.
 
 You might have noticed: I like learning new things. Web design is my newest project, albeit *in silico*. By working on this website, I'd like to earn the following stripes:

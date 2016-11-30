@@ -1,12 +1,13 @@
 body {
-    background-color: rgb(192, 162, 134);
-    background-image: url('/assets/background-texture.gif');
-    background-size: 64px;
-    background-repeat: repeat;
-    background-position: top left;
-    background-attachment: fixed;
+    background-color: white;
+    background-image: url('/assets/background-cutout-DNA.gif'),
+                      linear-gradient(white, blue);
+    background-size: 200px, 200px;
+    background-repeat: repeat-y, no-repeat;
+    background-position: top left, top left;
+    background-attachment: scroll, fixed;
     padding: 0;
-}
+} 
 
 main {
     background-color: transparent;
@@ -15,6 +16,7 @@ main {
     max-width: 1600px;
 }
 
+/*
 .crop-height {
     background-image: url('/assets/background-texture.gif'),
                       url('/assets/lorikeet-background.jpg' );
@@ -40,3 +42,4 @@ main {
     }
     
 }
+*/

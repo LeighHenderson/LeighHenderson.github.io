@@ -11,7 +11,7 @@ body {
 }
 */
 
-/* boxes */
+/* boxes
 body {
     background-color: white;
     background-image: url('/assets/bw-grid.gif'),
@@ -22,6 +22,31 @@ body {
     background-attachment: fixed, scroll;
     padding: 0;
 }
+*/
+
+/* bubbles
+body {
+    background-color: white;
+    background-image: url('/assets/background-grid-WhiteRoundedSquares.gif'),
+                      url('/assets/background-grid-WhiteRoundedSquares-bubbles.gif' );
+    background-size: 200px, 200px;
+    background-repeat: repeat-y, repeat-y;
+    background-position: top left, top left;
+    background-attachment: fixed, scroll;
+    padding: 0;
+} */
+
+/* DNA cutout */
+body {
+    background-color: blue;
+    background-image: url('/assets/background-cutout-DNA.gif'),
+                      linear-gradient(white, blue);
+    background-size: 200px, 200px;
+    background-repeat: repeat-y, no-repeat;
+    background-position: top left, top left;
+    background-attachment: scroll, fixed;
+    padding: 0;
+} 
 
 div .transparent {
     opacity: 0.9;

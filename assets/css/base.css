@@ -52,19 +52,19 @@ body {
   color: #000000;
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
-  background-color: #c0a286;
-  background-image: url("/assets/background-texture.gif"), url("/assets/background-texture.gif");
-  background-size: 64px, 64px;
-  background-repeat: repeat, repeat;
-  background-position: top left -3, top left;
-  background-attachment: fixed, scroll;
+  background-color: white;
+  background-image: url("/assets/background-cutout-DNA.gif"), linear-gradient(white, #1B7B34);
+  background-size: 200px, 200px;
+  background-repeat: repeat-y, no-repeat;
+  background-position: top left, top left;
+  background-attachment: scroll, fixed;
   padding: 0; }
-  @media only screen and (min-width: 800px) {
-    body {
-      font-size: 18px; } }
-  @media only screen and (min-width: 1200px) {
-    body {
-      font-size: 20px; } }
+
+@media only screen and (min-width: 800px) {
+  font-size: 18px; }
+
+@media only screen and (min-width: 1200px) {
+  font-size: 20px; }
 
 h1,
 h2,
@@ -103,7 +103,7 @@ main {
 
 @media only screen and (min-width: 600px) {
   main {
-    margin: 15px auto; } }
+    margin: 15px auto 15px 200px; } }
 
 img {
   max-width: 100%; }
