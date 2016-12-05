@@ -1,18 +1,44 @@
-body {
-  background-color: white;
-  background-image: url("/assets/background-cutout-DNA.gif"), linear-gradient(white, blue);
-  background-size: 200px, 200px;
-  background-repeat: repeat-y, no-repeat;
-  background-position: top left, top left;
-  background-attachment: scroll, fixed;
-  padding: 0; }
-
 main {
   background-color: transparent;
   padding: 0;
   margin: 0 auto;
   max-width: 1600px; }
 
+body {
+  background-color: gray;
+  background-image: none; }
+
+.image {
+  background-image: url("/assets/background-texture.gif"), url("/assets/background-KlingmansDomePano.jpg");
+  background-size: 50px, 600px;
+  background-repeat: repeat, no-repeat;
+  background-position: top left, 48% -120px;
+  background-attachment: fixed, scroll;
+  padding: 0;
+  height: 400px; }
+
+@media only screen and (min-width: 600px) {
+  .image {
+    background-position: top left, 48% -100px;
+    background-size: 50px, 800px; } }
+
+@media only screen and (min-width: 800px) {
+  .image {
+    background-position: top left, center -230px;
+    background-size: 50px, 1600px; } }
+
+/* DNA background
+body {
+    background-color: white;
+    background-image: url('/assets/background-cutout-DNA.gif'),
+                      linear-gradient(white, blue);
+    background-size: 200px, 200px;
+    background-repeat: repeat-y, no-repeat;
+    background-position: top left, top left;
+    background-attachment: scroll, fixed;
+    padding: 0;
+} 
+*/
 /*
 .crop-height {
     background-image: url('/assets/background-texture.gif'),
