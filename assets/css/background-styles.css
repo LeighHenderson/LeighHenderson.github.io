@@ -1,15 +1,3 @@
-/* parrots
-body {
-    background-color: rgb(192, 162, 134);
-    background-image: url('/assets/background-texture.gif'),
-                      url('/assets/lorikeet-background.jpg' );
-    background-size: 64px, 1000px;
-    background-repeat: repeat, no-repeat;
-    background-position: top left, 50% 120px;
-    background-attachment: fixed, scroll;
-    padding: 0;
-}
-*/
 /* boxes
 body {
     background-color: white;
@@ -33,19 +21,33 @@ body {
     background-attachment: fixed, scroll;
     padding: 0;
 } */
-/* DNA cutout */
+/* DNA cutout
 body {
-  background-color: blue;
-  background-image: url("/assets/background-cutout-DNA.gif"), linear-gradient(white, blue);
-  background-size: 200px, 200px;
-  background-repeat: repeat-y, no-repeat;
-  background-position: top left, top left;
-  background-attachment: scroll, fixed;
-  padding: 0; }
-
-div .transparent {
-  opacity: 0.9;
-  background-color: #ff471a; }
+    background-color: blue;
+    background-image: url('/assets/background-cutout-DNA.gif'),
+                      linear-gradient(white, blue);
+    background-size: 200px, 200px;
+    background-repeat: repeat-y, no-repeat;
+    background-position: top left, top left;
+    background-attachment: scroll, fixed;
+    padding: 0;
+} 
+*/
+/* turkey feathers
+body {
+    background-color: #000000;
+    background-image: url('/assets/background-texture.gif'),
+                      url('/assets/background_turkeyFeathers.gif' );
+    background-size: 64px, 1000px;
+    background-repeat: repeat, no-repeat;
+    background-position: top left, 50% 120px;
+    background-attachment: fixed, scroll;
+    padding: 0;
+}
+*/
+body {
+  background-color: #000000;
+  background-image: none; }
 
 main {
   background-color: transparent;
@@ -53,21 +55,32 @@ main {
   margin: 0 auto;
   max-width: 1600px; }
 
+/* This divider element crops the background, idea from css-tricks.com/crop-top/ */
 .crop-height {
-  background-image: url("/assets/background-texture.gif"), url("/assets/lorikeet-background.jpg");
-  background-size: 64px, 1000px;
+  background-color: white;
+  background-image: url("/assets/background-texture.gif"), url("/assets/background_turkeyFeathers.gif");
+  background-size: 64px, 800px;
   background-repeat: repeat, no-repeat;
   background-position: top left, 48% -120px;
   background-attachment: fixed, scroll;
   padding: 0;
-  height: 400px; }
+  height: 150px; }
 
 @media only screen and (min-width: 600px) {
   .crop-height {
     background-position: top left, 48% -100px;
-    background-size: 64px, 800px; } }
+    background-size: 64px, 1200px;
+    height: 200px; } }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 1200px) {
   .crop-height {
     background-position: top left, center -230px;
-    background-size: 64px, 1600px; } }
+    background-size: 64px, 1600px;
+    background-repeat: repeat, repeat; } }
+
+.title {
+  background-color: white;
+  opacity: 0.9;
+  margin: auto;
+  height: 100%;
+  width: 400px; }

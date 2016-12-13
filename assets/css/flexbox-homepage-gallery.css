@@ -1,6 +1,5 @@
 /* Flexbox set-up 
 mobile-first */
-/* bright tropical color scheme */
 /* salmon */
 /* teal */
 /* blue */
@@ -12,16 +11,12 @@ mobile-first */
   list-style: none;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-flow: row wrap;
-  flex-flow: row wrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
   -ms-flex-pack: distribute;
   justify-content: space-around;
   -ms-flex-line-pack: stretch;
   align-content: stretch; }
-
-.column {
-  -ms-flex-flow: column wrap;
-  flex-flow: column wrap; }
 
 .flex-item {
   background: #FFFFFF;
@@ -57,36 +52,43 @@ mobile-first */
     -ms-flex-preferred-size: 25%;
     flex-basis: 25%; } }
 
-.flex-item:nth-child(5n+1) {
-  background: #F24C4E; }
-
-.flex-item:nth-child(5n+1):hover {
-  background: #f57c7d; }
+.flex-item:nth-child(1) {
+  background: none; }
 
 .flex-item:nth-child(5n+2) {
-  background: #1FB58F;
+  background: #f4fbfd;
   color: white; }
 
 .flex-item:nth-child(5n+2):hover {
-  background: #2cdbaf; }
+  background: #c9ebf5; }
 
 .flex-item:nth-child(5n+3) {
-  background: #67CCFF; }
+  background: #daeaf3;
+  color: white; }
 
 .flex-item:nth-child(5n+3):hover {
-  background: #9addff; }
+  background: #b3d4e7; }
 
 .flex-item:nth-child(5n+4) {
-  background: #1B7B34; }
+  background: #dae1e5;
+  color: white; }
 
 .flex-item:nth-child(5n+4):hover {
-  background: #24a546; }
+  background: #bcc9d0; }
 
 .flex-item:nth-child(5n+5) {
-  background: #EAB126; }
+  background: #c6b1ad;
+  color: white; }
 
 .flex-item:nth-child(5n+5):hover {
-  background: #efc255; }
+  background: #b1948f; }
+
+.flex-item:nth-child(5n+6) {
+  background: #a2a0aa;
+  color: white; }
+
+.flex-item:nth-child(5n+6):hover {
+  background: #888592; }
 
 main {
   background-color: transparent; }

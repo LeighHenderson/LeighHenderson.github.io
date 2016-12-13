@@ -1,12 +1,11 @@
 /* Flexbox set-up 
 mobile-first */
 
-/* bright tropical color scheme */
-$color1: #F24C4E; /* salmon */
-$color2: #1FB58F; /* teal */
-$color3: #67CCFF; /* blue */
-$color4: #1B7B34;  /* green */
-$color5: #EAB126; /* yellow */
+$color1: rgb(244, 251, 253); /* salmon */
+$color2: rgb(218, 234, 243); /* teal */
+$color3: rgb(218, 225, 229); /* blue */
+$color4: rgb(198, 177, 173);  /* green */
+$color5: rgb(162, 160, 170); /* yellow */
 
 .flex-container {
     padding: 0;
@@ -15,13 +14,11 @@ $color5: #EAB126; /* yellow */
     list-style: none;
 
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column nowrap;
     justify-content: space-around;
     align-content: stretch;
 }
-.column {
-    flex-flow: column wrap;
-}
+
 .flex-item {
     background: #FFFFFF;
     padding: 0;
@@ -61,40 +58,48 @@ $color5: #EAB126; /* yellow */
     }
 }
 
-.flex-item:nth-child(5n+1) {
-    background: $color1;
-}
-.flex-item:nth-child(5n+1):hover {
-        background: lighten($color1, 10%);
+.flex-item:nth-child(1) {
+    background: none;
 }
 
 .flex-item:nth-child(5n+2) {
-    background: $color2;
+    background: $color1;
     color: white;
 }
 .flex-item:nth-child(5n+2):hover {
-        background: lighten($color2, 10%);
+        background: darken($color1, 10%);
 }
 
 .flex-item:nth-child(5n+3) {
-    background: $color3;
+    background: $color2;
+    color: white;
 }
 .flex-item:nth-child(5n+3):hover {
-        background: lighten($color3, 10%);
+        background: darken($color2, 10%);
 }
 
 .flex-item:nth-child(5n+4) {
-    background: $color4;
+    background: $color3;
+    color: white;
 }
 .flex-item:nth-child(5n+4):hover {
-        background: lighten($color4, 10%);
+        background: darken($color3, 10%);
 }
 
 .flex-item:nth-child(5n+5) {
-    background: $color5;
+    background: $color4;
+    color: white;
 }
 .flex-item:nth-child(5n+5):hover {
-        background: lighten($color5, 10%);
+        background: darken($color4, 10%);
+}
+
+.flex-item:nth-child(5n+6) {
+    background: $color5;
+    color: white;
+}
+.flex-item:nth-child(5n+6):hover {
+        background: darken($color5, 10%);
 }
 
 main {
