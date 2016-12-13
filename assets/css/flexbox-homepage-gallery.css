@@ -1,10 +1,10 @@
 /* Flexbox set-up 
 mobile-first */
-/* salmon */
-/* teal */
-/* blue */
-/* green */
-/* yellow */
+/* light blue-gray */
+/* blue-gray */
+/* heather */
+/* light mauve */
+/* light purple */
 .flex-container {
   padding: 0;
   margin: 0;
@@ -92,3 +92,6 @@ mobile-first */
 
 main {
   background-color: transparent; }
+
+.clearfix {
+  overflow: auto; }

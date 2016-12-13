@@ -9,33 +9,17 @@ stylesheets:
 category: draft
 layout: home
 ---
-<header>
-    <div class="crop-height"> 
-        <div class="title">
-            <img src="/assets/logo_labnotes.gif" alt="Lab Notes Logo" style ="max-height:100%; display:block; margin:auto;">
-        </div>
+<header class="crop-height">
+    <div class="title">
+        <img src="/assets/logo_labnotes.gif" alt="Lab Notes Logo" style ="max-height:100%; display:block; margin:auto;">
     </div>
 </header>
 
 <div style="height:50px;"></div>
 
-<section class="container">
-    <div class="row">
-        <div class="one-third column" style="height:200px;">
+<section class="container row">
+        <div class="one-third column">
             <ul class="flex-container column muted-colors">
-                <li class="flex-item">Concepts
-                </li>
-                {% for page in site.pages %} 
-                    {% if page.title and page.category == 'concept' %}
-                    <li class="flex-item">
-                        <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a> 
-                    </li>
-                    {% endif %} 
-                {% endfor %}
-            </ul>
-        </div>
-        <div class="one-third column" style="height:200px;">
-            <ul class="flex-container column">
                 <li class="flex-item">Protocols
                 </li>
                 {% for page in site.pages %} 
@@ -47,7 +31,20 @@ layout: home
                 {% endfor %}
             </ul>
         </div>
-        <div class="one-third column" style="height:200px;">
+        <div class="one-third column">
+            <ul class="flex-container column">
+                <li class="flex-item">Concepts
+                </li>
+                {% for page in site.pages %} 
+                    {% if page.title and page.category == 'concept' %}
+                    <li class="flex-item">
+                        <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a> 
+                    </li>
+                    {% endif %} 
+                {% endfor %}
+            </ul>
+        </div>
+        <div class="one-third column">
             <ul class="flex-container column">
                 <li class="flex-item">Tools
                 </li>
@@ -60,7 +57,6 @@ layout: home
                 {% endfor %}
             </ul>
         </div>
-    </div> 
 </section>
 
 <div style="height:500px;"> </div>

@@ -1,11 +1,11 @@
 /* Flexbox set-up 
 mobile-first */
 
-$color1: rgb(244, 251, 253); /* salmon */
-$color2: rgb(218, 234, 243); /* teal */
-$color3: rgb(218, 225, 229); /* blue */
-$color4: rgb(198, 177, 173);  /* green */
-$color5: rgb(162, 160, 170); /* yellow */
+$color1: rgb(244, 251, 253); /* light blue-gray */
+$color2: rgb(218, 234, 243); /* blue-gray */
+$color3: rgb(218, 225, 229); /* heather */
+$color4: rgb(198, 177, 173);  /* light mauve */
+$color5: rgb(162, 160, 170); /* light purple */
 
 .flex-container {
     padding: 0;
@@ -104,4 +104,8 @@ $color5: rgb(162, 160, 170); /* yellow */
 
 main {
     background-color: transparent;
+}
+
+.clearfix {
+    overflow: auto;
 }
