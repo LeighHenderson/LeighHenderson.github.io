@@ -160,7 +160,9 @@ img {
     flex-flow: row nowrap; }
   .navigation a {
     height: 50px;
-    padding: 12px; }
+    padding: 12px;
+    border-top: none;
+    border-bottom: none; }
   .navigation img {
     -ms-flex-positive: 2;
     flex-grow: 2; } }

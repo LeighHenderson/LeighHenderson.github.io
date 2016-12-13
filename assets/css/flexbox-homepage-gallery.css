@@ -19,7 +19,7 @@ mobile-first */
   align-content: stretch; }
 
 .flex-item {
-  background: #FFFFFF;
+  background: none;
   padding: 0;
   margin: 0;
   color: white;
@@ -32,8 +32,12 @@ mobile-first */
   -ms-flex-positive: 1;
   flex-grow: 1;
   width: 100%; }
-  .flex-item a:hover {
-    color: black; }
+  .flex-item a {
+    color: white; }
+
+.flex-item:nth-child(1) {
+  background-color: white;
+  color: black; }
 
 @media only screen and (min-width: 600px) {
   .flex-container {
@@ -45,53 +49,56 @@ mobile-first */
     height: 150px;
     -ms-flex-preferred-size: 33.33%;
     flex-basis: 33.33%;
-    min-width: 0; } }
+    min-width: 0; }
+  .flex-item:nth-child(1) {
+    border-bottom: 6px dotted #f4fbfd;
+    background: none;
+    color: white; } }
 
 @media only screen and (min-width: 800px) {
   .flex-item {
     -ms-flex-preferred-size: 25%;
     flex-basis: 25%; } }
 
-.flex-item:nth-child(1) {
-  background: none; }
-
-.flex-item:nth-child(5n+2) {
-  background: #f4fbfd;
-  color: white; }
+.flex-item:nth-child(n+2):hover a {
+  color: black; }
 
 .flex-item:nth-child(5n+2):hover {
-  background: #c9ebf5; }
-
-.flex-item:nth-child(5n+3) {
-  background: #daeaf3;
-  color: white; }
+  background: #f4fbfd; }
 
 .flex-item:nth-child(5n+3):hover {
-  background: #b3d4e7; }
-
-.flex-item:nth-child(5n+4) {
-  background: #dae1e5;
-  color: white; }
+  background: #daeaf3; }
 
 .flex-item:nth-child(5n+4):hover {
-  background: #bcc9d0; }
-
-.flex-item:nth-child(5n+5) {
-  background: #c6b1ad;
-  color: white; }
+  background: #dae1e5; }
 
 .flex-item:nth-child(5n+5):hover {
-  background: #b1948f; }
-
-.flex-item:nth-child(5n+6) {
-  background: #a2a0aa;
-  color: white; }
+  background: #c6b1ad; }
 
 .flex-item:nth-child(5n+6):hover {
-  background: #888592; }
+  background: #a2a0aa; }
 
+/* Make the flex-items different colors
+.flex-item:nth-child(5n+2) {
+    background: $color1;
+    color: white;
+}
+.flex-item:nth-child(5n+3) {
+    background: $color2;
+    color: white;
+}
+.flex-item:nth-child(5n+4) {
+    background: $color3;
+    color: white;
+}
+.flex-item:nth-child(5n+5) {
+    background: $color4;
+    color: white;
+}
+.flex-item:nth-child(5n+6) {
+    background: $color5;
+    color: white;
+}
+*/
 main {
   background-color: transparent; }
-
-.clearfix {
-  overflow: auto; }

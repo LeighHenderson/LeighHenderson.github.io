@@ -181,6 +181,9 @@ img {
     .navigation a {
         height: 50px;
         padding: 12px;
+
+        border-top: none;
+        border-bottom: none;
     }
     .navigation img {
         flex-grow: 2;

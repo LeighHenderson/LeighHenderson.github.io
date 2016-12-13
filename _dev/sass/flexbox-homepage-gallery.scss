@@ -20,7 +20,7 @@ $color5: rgb(162, 160, 170); /* light purple */
 }
 
 .flex-item {
-    background: #FFFFFF;
+    background: none;
     padding: 0;
     margin: 0;
 
@@ -34,9 +34,14 @@ $color5: rgb(162, 160, 170); /* light purple */
     flex-grow: 1;
     width: 100%;
 
-    a:hover {
-        color: black;
+    a {
+        color: white;
     }
+}
+
+.flex-item:nth-child(1) {
+    background-color: white;
+    color: black;
 }
 
 @media only screen and (min-width: 600px) {
@@ -50,6 +55,11 @@ $color5: rgb(162, 160, 170); /* light purple */
         flex-basis: 33.33%;
         min-width: 0;
     }
+    .flex-item:nth-child(1) {
+        border-bottom: 6px dotted $color1;
+        background: none;
+        color: white;
+    }
 }
 
 @media only screen and (min-width: 800px) {
@@ -58,54 +68,50 @@ $color5: rgb(162, 160, 170); /* light purple */
     }
 }
 
-.flex-item:nth-child(1) {
-    background: none;
+.flex-item:nth-child(n+2):hover {
+    a {
+        color: black;
+    }
+}
+.flex-item:nth-child(5n+2):hover {
+        background: $color1;
+}
+.flex-item:nth-child(5n+3):hover {
+        background: $color2;
+}
+.flex-item:nth-child(5n+4):hover {
+        background: $color3;
+}
+.flex-item:nth-child(5n+5):hover {
+        background: $color4;
+}
+.flex-item:nth-child(5n+6):hover {
+        background: $color5;
 }
 
+/* Make the flex-items different colors
 .flex-item:nth-child(5n+2) {
     background: $color1;
     color: white;
 }
-.flex-item:nth-child(5n+2):hover {
-        background: darken($color1, 10%);
-}
-
 .flex-item:nth-child(5n+3) {
     background: $color2;
     color: white;
 }
-.flex-item:nth-child(5n+3):hover {
-        background: darken($color2, 10%);
-}
-
 .flex-item:nth-child(5n+4) {
     background: $color3;
     color: white;
 }
-.flex-item:nth-child(5n+4):hover {
-        background: darken($color3, 10%);
-}
-
 .flex-item:nth-child(5n+5) {
     background: $color4;
     color: white;
 }
-.flex-item:nth-child(5n+5):hover {
-        background: darken($color4, 10%);
-}
-
 .flex-item:nth-child(5n+6) {
     background: $color5;
     color: white;
 }
-.flex-item:nth-child(5n+6):hover {
-        background: darken($color5, 10%);
-}
+*/
 
 main {
     background-color: transparent;
-}
-
-.clearfix {
-    overflow: auto;
 }

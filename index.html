@@ -1,63 +1,62 @@
 ---
-title: Leigh Henderson's Laboratory
+title: Leigh's Lab Notes
 description: Welcome to academic biomedical research. Here's your introduction to the protocols used in university laboratories, with emphasis on basic concepts.
 
-layout: default
+layout: home
 category: navigation
 stylesheets: 
-  - flexbox-gallery
+  - flexbox-homepage-gallery
   - home-page
 ---
 
-
-  <!-- <img src="{{ site.url }}{{ site.logo}}" alt="LCL pipettor logo" width="100%"> -->
-
-  <header>
-    <div class="container">
-      <div class="row">
-        <div class="one-third column" style="height:200px;">
-        </div>
-        <div class="one-third column" style="background:black; opacity:0.5;  padding:10px;">
-          <h3 style="color:white; text-align:center;">{{ site.title }}
-            <br><i class="fa fa-flask"></i>
-          </h3>
-        </div>
-      </div>
+<header class="crop-height">
+    <div class="title">
+        <img src="/assets/logo_labnotes.gif" alt="Lab Notes Logo" style ="max-height:100%; display:block; margin:auto;">
     </div>
-  </header>
+</header>
 
+<div style="height:50px;"></div>
 
-<div style="height:50px;">
-</div>
-
-<section class="container">
-  <ul class="flex-container">
-    {% for page in site.pages %} 
-      {% if page.title and page.category != 'navigation' %}
-        <li class ="flex-item"><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-      {% endif %} 
-    {% endfor %}
-  </ul>
+<section class="container row">
+    <div class="one-third column">
+        <ul class="flex-container column muted-colors">
+            <li class="flex-item">Protocols
+            </li>
+            {% for page in site.pages %} 
+                {% if page.title and page.category == 'protocol' %}
+                <li class="flex-item">
+                    <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a> 
+                </li>
+                {% endif %} 
+            {% endfor %}
+        </ul>
+    </div>
+    <div class="one-third column">
+        <ul class="flex-container column">
+            <li class="flex-item">Concepts
+            </li>
+            {% for page in site.pages %} 
+                {% if page.title and page.category == 'concept' %}
+                <li class="flex-item">
+                    <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a> 
+                </li>
+                {% endif %} 
+            {% endfor %}
+        </ul>
+    </div>
+    <div class="one-third column">
+        <ul class="flex-container column">
+            <li class="flex-item">Tools
+            </li>
+            {% for page in site.pages %} 
+                {% if page.title and page.category == 'tool' %}
+                <li class="flex-item">
+                    <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a> 
+                </li>
+                {% endif %} 
+            {% endfor %}
+        </ul>
+    </div>
 </section>
 
-<div style="height:50px;">
-</div>
-
-<!-- future direction: slideshow that goes through graphical-abstract images
-
-<div>
-  <ul class="flex-container" style="flex-direction:column; width:150px;">
-    {% for page in site.pages %} 
-      {% if page.graphical-abstract and page.graphical-abstract != '' %}
-        <li class ="flex-item">
-          <img src="{{ site.url }}/assets/{{ page.graphical-abstract }}">
-        </li>
-        <li class ="flex-item">
-          <p>{{ page.title }}</p>
-        </li>
-      {% endif %} 
-    {% endfor %}
-  </ul>
-</div>
-
--->
+<div style="height:50px;"> </div>
