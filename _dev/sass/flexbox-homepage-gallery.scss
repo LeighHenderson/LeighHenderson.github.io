@@ -24,7 +24,7 @@ $color5: rgb(162, 160, 170); /* light purple */
     padding: 0;
     margin: 0;
 
-    color: white;
+    color: $color3;
     font-weight: bold;
     font-size: 1.2em;
     text-align: center;
@@ -35,12 +35,12 @@ $color5: rgb(162, 160, 170); /* light purple */
     width: 100%;
 
     a {
-        color: white;
+        color: $color3;
     }
 }
 
 .flex-item:nth-child(1) {
-    background-color: white;
+    background-color: $color4;
     color: black;
 }
 
@@ -51,20 +51,12 @@ $color5: rgb(162, 160, 170); /* light purple */
     }
     .flex-item {
         height: 150px;
-
-        flex-basis: 33.33%;
-        min-width: 0;
+        flex-basis: 0;
     }
     .flex-item:nth-child(1) {
-        border-bottom: 6px dotted $color1;
+        border-bottom: 6px dotted $color4;
         background: none;
-        color: white;
-    }
-}
-
-@media only screen and (min-width: 800px) {
-    .flex-item {
-        flex-basis: 25%;
+        color: $color3;
     }
 }
 
@@ -73,19 +65,16 @@ $color5: rgb(162, 160, 170); /* light purple */
         color: black;
     }
 }
-.flex-item:nth-child(5n+2):hover {
+.flex-item:nth-child(4n+2):hover {
         background: $color1;
 }
-.flex-item:nth-child(5n+3):hover {
+.flex-item:nth-child(4n+3):hover {
         background: $color2;
 }
-.flex-item:nth-child(5n+4):hover {
+.flex-item:nth-child(4n+4):hover {
         background: $color3;
 }
-.flex-item:nth-child(5n+5):hover {
-        background: $color4;
-}
-.flex-item:nth-child(5n+6):hover {
+.flex-item:nth-child(4n+5):hover {
         background: $color5;
 }
 

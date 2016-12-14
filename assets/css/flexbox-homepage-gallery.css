@@ -22,7 +22,7 @@ mobile-first */
   background: none;
   padding: 0;
   margin: 0;
-  color: white;
+  color: #dae1e5;
   font-weight: bold;
   font-size: 1.2em;
   text-align: center;
@@ -33,10 +33,10 @@ mobile-first */
   flex-grow: 1;
   width: 100%; }
   .flex-item a {
-    color: white; }
+    color: #dae1e5; }
 
 .flex-item:nth-child(1) {
-  background-color: white;
+  background-color: #c6b1ad;
   color: black; }
 
 @media only screen and (min-width: 600px) {
@@ -47,35 +47,26 @@ mobile-first */
     justify-content: space-around; }
   .flex-item {
     height: 150px;
-    -ms-flex-preferred-size: 33.33%;
-    flex-basis: 33.33%;
-    min-width: 0; }
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0; }
   .flex-item:nth-child(1) {
-    border-bottom: 6px dotted #f4fbfd;
+    border-bottom: 6px dotted #c6b1ad;
     background: none;
-    color: white; } }
-
-@media only screen and (min-width: 800px) {
-  .flex-item {
-    -ms-flex-preferred-size: 25%;
-    flex-basis: 25%; } }
+    color: #dae1e5; } }
 
 .flex-item:nth-child(n+2):hover a {
   color: black; }
 
-.flex-item:nth-child(5n+2):hover {
+.flex-item:nth-child(4n+2):hover {
   background: #f4fbfd; }
 
-.flex-item:nth-child(5n+3):hover {
+.flex-item:nth-child(4n+3):hover {
   background: #daeaf3; }
 
-.flex-item:nth-child(5n+4):hover {
+.flex-item:nth-child(4n+4):hover {
   background: #dae1e5; }
 
-.flex-item:nth-child(5n+5):hover {
-  background: #c6b1ad; }
-
-.flex-item:nth-child(5n+6):hover {
+.flex-item:nth-child(4n+5):hover {
   background: #a2a0aa; }
 
 /* Make the flex-items different colors

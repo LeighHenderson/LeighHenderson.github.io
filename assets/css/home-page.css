@@ -1,3 +1,8 @@
+/* light blue-gray */
+/* blue-gray */
+/* heather */
+/* light mauve */
+/* light purple */
 body {
   background-color: #000000;
   background-image: none; }
@@ -6,11 +11,11 @@ main {
   background-color: transparent;
   padding: 0;
   margin: 0 auto;
-  max-width: 1600px; }
+  max-width: 3000px; }
 
 /* This divider element crops the background, idea from css-tricks.com/crop-top/ */
 .crop-height {
-  background-color: white;
+  background-color: #f4fbfd;
   background-image: url("/assets/background-texture.gif"), url("/assets/background_turkeyFeathers.gif");
   background-size: 64px, 800px;
   background-repeat: repeat, no-repeat;
@@ -32,8 +37,12 @@ main {
     background-repeat: repeat, repeat; } }
 
 .title {
-  background-color: white;
+  background-color: #dae1e5;
   opacity: 0.8;
   margin: auto;
   height: 100%;
   width: 400px; }
+
+.container {
+  max-width: 1200px;
+  margin: auto; }
