@@ -17,6 +17,59 @@ stylesheets:
 
 <div style="height:50px;"></div>
 
+
+<div class="container slideshow">
+    {% for page in site.pages %} 
+        {% if page.graphical-abstract and page.graphical-abstract != '' %}
+            <div class="slideshow mySlides">
+                <a class="slideshow" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+                <br>
+                <img class="slideshow" src="{{ site.url }}/assets/{{ page.graphical-abstract }}">
+            </div>
+        {% endif %} 
+    {% endfor %}
+</div>
+
+<div class="slideshow" style="text-align:center;">
+    <button class="slideshow" onclick="plusDivs(-1)">&#10094;</button>
+
+    {% for page in site.pages %} 
+        {% if page.graphical-abstract and page.graphical-abstract != '' %}
+            <button class="slideshow" onclick="currentDiv( {{ forloop.index }} )"></button>
+        {% endif %} 
+    {% endfor %}
+
+    <button class="slideshow" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<!-- script powers slideshow. Modified from http://www.w3schools.com/w3css/w3css_slideshow.asp -->
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+    showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}  
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+
+<div style="height:50px;"></div>
+
 <section class="container row">
     <div class="one-third column">
         <ul class="flex-container column muted-colors">
@@ -25,7 +78,7 @@ stylesheets:
             {% for page in site.pages %} 
                 {% if page.title and page.category == 'protocol' %}
                 <li class="flex-item">
-                    <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a> 
+                    <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a> 
                 </li>
                 {% endif %} 
             {% endfor %}
@@ -38,7 +91,7 @@ stylesheets:
             {% for page in site.pages %} 
                 {% if page.title and page.category == 'concept' %}
                 <li class="flex-item">
-                    <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a> 
+                    <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a> 
                 </li>
                 {% endif %} 
             {% endfor %}
@@ -51,7 +104,7 @@ stylesheets:
             {% for page in site.pages %} 
                 {% if page.title and page.category == 'tool' %}
                 <li class="flex-item">
-                    <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a> 
+                    <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a> 
                 </li>
                 {% endif %} 
             {% endfor %}

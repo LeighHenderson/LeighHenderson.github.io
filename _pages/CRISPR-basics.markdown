@@ -2,6 +2,7 @@
 title: CRISPR Basics
 description: CRISPR is a technique for making specific changes to DNA. Learn how Cas9 and guideRNA bind to the targeted sequence of DNA.
 graphical-abstract: Figure_Cas9_guideRNA_DNA_complex.jpg
+graphical-abstract: Figure_Cas9_guideRNA_DNA_complex.jpg
 
 permalink: /CRISPR_basics/
 category: concept

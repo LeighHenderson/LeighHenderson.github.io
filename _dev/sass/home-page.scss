@@ -59,3 +59,50 @@ main {
     max-width: 1200px;
     margin: auto;
 }
+
+div.slideshow{
+    text-align: center;
+    position: relative;
+    min-height: 230px;
+}
+img.slideshow{
+    margin: auto;
+    max-height: 200px;
+    max-width: 100%;
+}
+button.slideshow {
+    color: $color3;
+    font-size: 16px;
+    text-align: center;
+    line-height:20px;
+
+    background: none;
+    border: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 5px;
+}
+a.slideshow {
+    color: $color3;
+}
+
+button.slideshow:nth-child(1),
+button.slideshow:nth-last-child(1) {
+    
+}
+button.slideshow:nth-child(4n+2) {
+    background: $color1;
+}
+button.slideshow:nth-child(4n+3) {
+    background: $color2;
+}
+button.slideshow:nth-child(4n+4) {
+    background: $color3;
+}
+button.slideshow:nth-child(4n+4) {
+    background: $color5;
+}
+button.slideshow:hover {
+    background: pink;
+}

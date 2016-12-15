@@ -1,12 +1,12 @@
 ---
-title: "PROTOCOL: Freezing immortalized cells"
+title: "Freezing immortalized cells"
 description: Materials and methods for freezing immortalized cells
 
 layout: default
 permalink: /PROTOCOL-freezing-immotalized-cells/
 category: protocol
 ---
-# {{ page.title }}
+# PROTOCOL: {{ page.title }}
 
 [PDF]({{ site.url }}/assets/PROTOCOL-freezing-immortalized-cells.pdf)
 

@@ -1,11 +1,11 @@
 ---
-title: "PROTOCOL: Sequencing DNA from cells"
+title: "Sequencing DNA from cells"
 description: "Protocol for cellular DNA sequening. Covers isolation of genomic DNA, PCR amplification, isolation of the DNA sequence of interest, and purification of the DNA from a gel."
 
 permalink: /PROTOCOL-sequening-DNA-from-cells/
 category: protocol
 ---
-# {{ page.title }}
+# PROTOCOL: {{ page.title }}
 
 [PDF]({{ site.url }}/assets/PROTOCOL-sequencing-DNA-from-cells.pdf)
 

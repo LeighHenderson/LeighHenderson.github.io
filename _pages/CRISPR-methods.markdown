@@ -1,5 +1,5 @@
 ---
-title: Methods for editing the genome with CRISPR/Cas9
+title: CRISPR Methods
 description: "(1) Introduce plasmids (2) Wait (3) Isolate edited cells (4) Single cell cloning (5) Find edited clones"
 graphical-abstract: Figure_CRISPR_methods_overview.jpg
 

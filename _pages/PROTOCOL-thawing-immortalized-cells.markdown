@@ -1,11 +1,11 @@
 ---
-title:  "PROTOCOL: Thawing immortalized cells"
+title:  "Thawing immortalized cells"
 description: Materials and methods for thawing immortalized cells.
 
 permalink: /PROTOCOL-thawing_immotalized_cells/
 category: protocol
 ---
-# {{ page.title }}
+# PROTOCOL: {{ page.title }}
 
 [PDF]({{ site.url }}/assets/PROTOCOL-thawing-immortalized-cells.pdf)
 
