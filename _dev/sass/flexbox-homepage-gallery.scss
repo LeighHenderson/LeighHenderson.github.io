@@ -46,6 +46,10 @@ $color5: rgb(162, 160, 170); /* light purple */
 
 @media only screen and (min-width: 600px) {
     .flex-container {
+        padding-left:5px;
+        padding-right: 5px;        
+
+
         align-items: center ;
         justify-content: space-around;
     }
@@ -57,6 +61,12 @@ $color5: rgb(162, 160, 170); /* light purple */
         border-bottom: 6px dotted $color4;
         background: none;
         color: $color3;
+    }
+}
+@media only screen and (min-width: 1000px) {
+    .flex-container {
+        padding-left:30px;
+        padding-right: 30px;        
     }
 }
 

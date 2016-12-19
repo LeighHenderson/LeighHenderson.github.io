@@ -41,6 +41,8 @@ mobile-first */
 
 @media only screen and (min-width: 600px) {
   .flex-container {
+    padding-left: 5px;
+    padding-right: 5px;
     -ms-flex-align: center;
     align-items: center;
     -ms-flex-pack: distribute;
@@ -53,6 +55,11 @@ mobile-first */
     border-bottom: 6px dotted #c6b1ad;
     background: none;
     color: #dae1e5; } }
+
+@media only screen and (min-width: 1000px) {
+  .flex-container {
+    padding-left: 30px;
+    padding-right: 30px; } }
 
 .flex-item:nth-child(n+2):hover a {
   color: black; }

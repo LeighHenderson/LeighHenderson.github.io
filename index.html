@@ -18,20 +18,22 @@ stylesheets:
 <div style="height:50px;"></div>
 
 
-<div class="container slideshow">
+<div class="slideshow">
     {% for page in site.pages %} 
         {% if page.graphical-abstract and page.graphical-abstract != '' %}
             <div class="slideshow mySlides">
-                <a class="slideshow" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+                <a class="slideshow" href="{{ page.url | prepend: site.baseurl }}">
+                {{ page.title }}
                 <br>
                 <img class="slideshow" src="{{ site.url }}/assets/{{ page.graphical-abstract }}">
+                </a>
             </div>
         {% endif %} 
     {% endfor %}
 </div>
 
-<div class="slideshow" style="text-align:center;">
-    <button class="slideshow" onclick="plusDivs(-1)">&#10094;</button>
+<div style="text-align:center; height:30px; position:relative;">
+    <button class="slideshow" onclick="plusDivs(-1)" style="top:6px;">&#10094;</button>
 
     {% for page in site.pages %} 
         {% if page.graphical-abstract and page.graphical-abstract != '' %}
@@ -39,7 +41,7 @@ stylesheets:
         {% endif %} 
     {% endfor %}
 
-    <button class="slideshow" onclick="plusDivs(1)">&#10095;</button>
+    <button class="slideshow" onclick="plusDivs(1)" style="top:6px">&#10095;</button>
 </div>
 
 <!-- script powers slideshow. Modified from http://www.w3schools.com/w3css/w3css_slideshow.asp -->
@@ -112,4 +114,4 @@ function showDivs(n) {
     </div>
 </section>
 
-<div style="height:50px;"> </div>
+<div style="height:30px;"> </div>
