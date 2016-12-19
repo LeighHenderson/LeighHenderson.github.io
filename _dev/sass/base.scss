@@ -129,6 +129,11 @@ main {
 }
 img {
     max-width: 100%;
+    display: block;
+    margin: auto;
+}
+code {
+    max-width: 100%;
 }
 
 /* Flexbox navigation bar */
@@ -208,3 +213,10 @@ img {
     }
 }
 
+li {
+    margin-bottom: 1.5em;
+
+    img {
+        margin-top: 1.5em;
+    }
+}

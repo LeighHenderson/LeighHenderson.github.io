@@ -24,33 +24,41 @@ Experienced ImageJ users can skip ahead to [automation with macros](#automation-
 
 Let's count the stars in an image of the nighttime sky:
 
-1. Save the image below to your device (see image credit below). File > Open.
+<ol>
+<li>Save the image below to your device (see image credit below). File > Open.
 
 <img src="/assets/ImageJ_StarsToCount.jpg" alt="Practice image for counting stars." style="width:400px">
+</li>
 
-2. Edit > Options > Point tool. Use options: add to overlay and label points.
+<li>Edit > Options > Point tool. Use options: add to overlay and label points.
 
 <img src="/assets/Screencap_ImageJ_StarCounting_PointToolOptions.jpg" alt="Screencap. Point tool options in ImageJ." style="width:400px">
+</li>
 
-3. From the toolbar, select the Point tool. Click on each star to be counted. If you make a mistake, click on the unwanted point and press *delete*.
+<li>From the toolbar, select the Point tool. Click on each star to be counted. If you make a mistake, click on the unwanted point and press *delete*.
 
 <img src="/assets/Screencap_ImageJ_StarCounting_PointToolCount.jpg" alt="Screencap. Stars counted with the point tool." style="width:400px">
+</li>
+</ol>
 
 ## Removing bias in quantification through thresholding 
 
 In the star counting example, someone might count more than 9 stars. Or fewer. The person counting brings a certain bias as to what a star should look like. To remove bias, let's define exactly what a star looks like. That way, different people analyzing this image will arrive at the same star count. Here's how:
 
-1. File > Open. Open the original image.
+<ol>
+<li>File > Open. Open the original image.</li>
 
-2. Image > Type > 8 bit. Reduce the color profile to 8-bit.
+<li>Image > Type > 8 bit. Reduce the color profile to 8-bit.</li>
 
-3. Image > Adjust > Threshold > Apply. Use Threshold options: Intermodes, Red, and Dark background. Intermodes is one of many mathematical models for automated thresholding; it is the best option for this particular image. 
+<li>Image > Adjust > Threshold > Apply. Use Threshold options: Intermodes, Red, and Dark background. Intermodes is one of many mathematical models for automated thresholding; it is the best option for this particular image. 
 
-<img src="/assets/Screencap_ImageJ_StarCounting_Threshold.jpg" alt="Screencap. Stars thresholded in ImageJ." style="width:400px">
+<img src="/assets/Screencap_ImageJ_StarCounting_Threshold.jpg" alt="Screencap. Stars thresholded in ImageJ." style="width:400px"></li>
 
-4. Analyze > Analyze particles > OK. Use Analyze particles options: Show outlines, Clear results, Summarize, and Exclude on edges.
+<li>Analyze > Analyze particles > OK. Use Analyze particles options: Show outlines, Clear results, Summarize, and Exclude on edges.
 
 <img src="/assets/Screencap_ImageJ_StarCounting_AnalyzeParticles.jpg" alt="Screencap. Use analyze particles to count stars in a thresholded image in ImageJ." style="width:400px">
+</li>
+</ol>
 
 Nine stars are counted.
 
@@ -60,79 +68,101 @@ Nine stars are counted.
 
 With thresholding, counting 100 stars is as easy as counding 9 stars. However, threshold counting stars in dozens of images would be tedious because of the need to click through the menus. ImageJ macros can automate the click through. Let's make a macro to count the stars:
 
-1. File > Open. Open the original image.
+<ol>
+<li>File > Open. Open the original image. </li>
 
-2. Open the Macro recorder. Edit the name of the macro, ex. "CountStars.ijm" (Note- .ijm is the ImageJ Macro extension).
+<li>Open the Macro recorder. Edit the name of the macro, ex. "CountStars.ijm" (Note- .ijm is the ImageJ Macro extension).</li>
 
-3. Click through all the steps for threshold counting. The steps will be recorded.
-    1. Image > Type > 8 bit
-    2. Image > Adjust > Threshold > Apply. Use Threshold options: Intermodes, Red, and Dark background. 
-    3. Analyze > Analyze particles > OK. Use Analyze particles options: Show outlines, Clear results, Summarize, and Exclude on edges.
+<li>Click through all the steps for threshold counting. The steps will be recorded.
+    <ol>
+    <li>Image > Type > 8 bit</li>
+    <li>Image > Adjust > Threshold > Apply. Use Threshold options: Intermodes, Red, and Dark background.</li>
+    <li>Analyze > Analyze particles > OK. Use Analyze particles options: Show outlines, Clear results, Summarize, and Exclude on edges.
 
 <img src="/assets/Screencap_ImageJ_StarCounting_MacroRecorder.jpg" alt="Screencap. The Macro Recorder shows each of the menu options that have been clicked." style="width:400px">
+    </li>
+    </ol>
+</li>
 
-4. In the recoder window, click *create*. A new .ijm window will open. Save the macro to the ImageJ > macros folder.
+<li>In the recoder window, click *create*. A new .ijm window will open. Save the macro to the ImageJ > macros folder.</li>
 
-5. Close all windows.
+<li>Close all windows.</li>
 
-6. File > Open. Open the original image. 
+<li>File > Open. Open the original image.</li>
 
-7. Plugins > Macros > Open. Open CountStars.ijm.
+<li>Plugins > Macros > Open. Open CountStars.ijm.</li>
 
-8. Click on the .ijm window. New menu options will appear. Macros > Run macro. Nine stars are counted, just as if the menus were clicked through by hand.
+<li>Click on the .ijm window. New menu options will appear. Macros > Run macro. Nine stars are counted, just as if the menus were clicked through by hand.</li>
 
-9. Test the macro on another star image. 
-    1. File > Open. Open the second image (use the one below). 
+<li>Test the macro on another star image. 
+    <ol>
+    <li>File > Open. Open the second image (use the one below).
 
-<img src="/assets/ImageJ_StarsToCount2.jpg" alt="Second practice image for counting stars." style="width:400px">
+    <img src="/assets/ImageJ_StarsToCount2.jpg" alt="Second practice image for counting stars." style="width:400px">
+    </li>
 
-    2. Plugins > Macros > Open. Open CountStars.ijm.
-    3. Click on the .ijm window. Macros > Run macro. Thirty two stars are counted.
+    <li>Plugins > Macros > Open. Open CountStars.ijm.</li>
+    <li>Click on the .ijm window. Macros > Run macro. Thirty two stars are counted.
 
 <img src="/assets/Screencap_ImageJ_StarCounting_CountAfterThreshold2.jpg" alt="Screencap. Thirty two stars are counted in the second image." style="width:400px">
+    </li>
+    </ol>
+</li>
+</ol>
 
 ## Extending macros to automate quantification of all images in a folder <a id="extending-macros"></a>
 
 If you have hundreds of images to process, the clicks required to open and close each image become tedious. Adding a few lines to a macro can automate opening each image, running the macro, saving the results, and closing each image. Here's how:
 
-1. Download the third example star image, below. Save all of three example images (StarsToCount 1, 2, and 3) into one folder. Put nothing else in this folder. 
+<ol>
+<li>Download the third example star image, below. Save all of three example images (StarsToCount 1, 2, and 3) into one folder. Put nothing else in this folder. 
 
 <img src="/assets/ImageJ_StarsToCount3.jpg" alt="Third practice image for counting stars." style="width:400px">
+</li>
 
-2. In ImageJ, Plugins > Macros > Edit. Open CountStars.ijm. 
+<li>In ImageJ, Plugins > Macros > Edit. Open CountStars.ijm.</li>
 
-3. File > Save As. Save the macro as "CountStarsInFolder.ijm"
+<li>File > Save As. Save the macro as "CountStarsInFolder.ijm"</li>
 
-4. Add the following text to the macro (or copy-past from a [PDF]({{ site.url }}/assets/ImageJ-MACRO-CountStarsInFolder.pdf) of the finished macro):
-
-    1. Before the rest of the text in the macro window, add instructions to choose an input folder and an output folder (folders are called "directories" in ImageJ):
+<li>Add the following text to the macro (or copy-past from a [PDF]({{ site.url }}/assets/ImageJ-MACRO-CountStarsInFolder.pdf) of the finished macro):
+    <ol>
+    <li>Before the rest of the text in the macro window, add instructions to choose an input folder and an output folder (folders are called "directories" in ImageJ):
 
             dirInput = getDirectory("Choose  Directory "); 
-            dirOutput = getDirectory("Choose  Directory "); 
+            dirOutput = getDirectory("Choose  Directory ");
+    </li>
 
-    2. Add instructions to process each image, or "file," in the folder:
+    <li>Add instructions to process each image, or "file," in the folder:
+        <code> <!--To display <,>, or & as text use &lt;, &gt;, or &amp--> 
+        list = getFileList(dirInput); 
 
-            list = getFileList(dirInput); 
+        setBatchMode(true); 
+        for (i=0;i&lt;list.length;i++) { 
+            open(dirInput+ list[i]);
+        }
+        </code>
+    </li>
 
-            setBatchMode(true); 
-            for (i=0;i<list.length;i++) { 
-                open(dirInput+ list[i]); 
-
-    3. At the end of the macro, add instructions to save the thresholded image and close the open windows.
+    <li>At the end of the macro, add instructions to save the thresholded image and close the open windows.
 
             saveAs("Jpeg", dirOutput + File.nameWithoutExtension + "_Threshold");
             close();
             }
+    </li>
+    </ol>
+</li>
 
-5. File > Save.
+<li>File > Save.</li>
 
-6. Macros > Run macro.
+<li>Macros > Run macro.</li>
 
-7. A dialogue box will open. Select the folder in which your images are stored.
+<li>A dialogue box will open. Select the folder in which your images are stored.</li>
 
-8. A second dialogue box will open. Select a different folder in which thresholded images will be placed. Do not make a new folder inside the folder from step 7.
+<li>A second dialogue box will open. Select a different folder in which thresholded images will be placed. Do not make a new folder inside the folder from step 7.</li>
 
-9. The macro will run. Star counts will appear in the Summary window (9, 32, and 19 stars in images 1, 2, and 3, respectively). Thresholded images will appear in the folder selected. 
+<li>The macro will run. Star counts will appear in the Summary window (9, 32, and 19 stars in images 1, 2, and 3, respectively). Thresholded images will appear in the folder selected. </li>
+
+</ol>
 
 ## Editing macros
 

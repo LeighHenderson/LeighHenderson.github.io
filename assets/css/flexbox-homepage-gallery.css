@@ -75,28 +75,3 @@ mobile-first */
 
 .flex-item:nth-child(4n+5):hover {
   background: #a2a0aa; }
-
-/* Make the flex-items different colors
-.flex-item:nth-child(5n+2) {
-    background: $color1;
-    color: white;
-}
-.flex-item:nth-child(5n+3) {
-    background: $color2;
-    color: white;
-}
-.flex-item:nth-child(5n+4) {
-    background: $color3;
-    color: white;
-}
-.flex-item:nth-child(5n+5) {
-    background: $color4;
-    color: white;
-}
-.flex-item:nth-child(5n+6) {
-    background: $color5;
-    color: white;
-}
-*/
-main {
-  background-color: transparent; }
