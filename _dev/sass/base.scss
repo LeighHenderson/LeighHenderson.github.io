@@ -9,6 +9,12 @@ $yellow: #EAB126;
 $salmon: #F24C4E;
 $green: #1B7B34;
 
+$color1: rgb(244, 251, 253); /* light blue-gray */
+$color2: rgb(218, 234, 243); /* blue-gray */
+$color3: rgb(218, 225, 229); /* heather */
+$color4: rgb(198, 177, 173);  /* light mauve */
+$color5: rgb(162, 160, 170); /* light purple */
+
 $nav-background: #444444;
 $nav-color: white;
 
@@ -108,7 +114,6 @@ h3 {
 a,
 a:visited {
     color: $link-color;
-    font-weight: bold;
     text-decoration: none;
 }
 a:hover {
@@ -142,56 +147,59 @@ code {
 .navigation {   /* flex-container */
     background: $nav-background;
     width: 100%;
-
+    height: 150px;
+    margin: 0; 
+    padding: 15px 5px 15px 5px;
     list-style: none;
-    margin:0;
-    flex-flow: column wrap;
-    padding: 0;
-    align-items: stretch;
+    border-top: 1px solid rgba(255,255,255,0.3);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    font-size: 1.2em;
+    font-weight: normal;
 
+    flex-flow: row wrap;
+    align-items: stretch;
+    align-content: space-around;
     display: flex;
 }
 .navigation a {   /* flex-item */
     color: $nav-color;
-    flex-grow: 1;
     text-decoration: none;
     display: block;
-    height: 30px;
+    height: 25px;
     text-align: center;
-    padding: 3px;
-    border-top: 1px solid rgba(255,255,255,0.3);
-    border-bottom: 1px solid rgba(0,0,0,0.1);
+    padding: 0 35px 0 35px;
+    
+    flex-grow: 1;
 }
 .navigation a.visited {
     color: lighten($nav-color, 10%);
 }
-.navigation a.logo {
-    padding: 6px;
-}
 .navigation a:hover {
-    background: lighten($nav-background, 10%);
+    color: $color4;
+}
+.navigation li {
+    margin: 0;
 }
 .navigation li:last-of-type a {
     border-bottom: none;
 }
 .navigation img {
     height: 100%;
+    margin: auto;
+    line-height: 0;
+}
+.navigation a.logo {
+    
 }
 
 @media only screen and (min-width: 600px) {
     .navigation {
         justify-content: space-around;
         flex-flow: row nowrap;
+        height: 55px;
     }
-    .navigation a {
-        height: 50px;
-        padding: 12px;
-
-        border-top: none;
-        border-bottom: none;
-    }
-    .navigation img {
-        flex-grow: 2;
+    .navigation a.logo {
+    width: 200px;
     }
 }
 
@@ -199,7 +207,6 @@ code {
     .navigation {
         justify-content: flex-end;
         flex-flow: row nowrap;
-
     }
 }
 
@@ -212,6 +219,7 @@ code {
         width: 200px;
     }
 }
+
 
 li {
     margin-bottom: 1.5em;
