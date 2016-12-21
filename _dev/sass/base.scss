@@ -179,7 +179,7 @@ code {
     margin: 0;
 }
 .footer li {
-    padding: 0 30px 0 30px;
+    width: 33%;
 }
 .header li {
     width: 35%;
@@ -225,6 +225,7 @@ li.logo {
         margin-right: auto; /* pushes logo to the left side of the screen */
     }
     .footer li {
+        width: auto;
         padding: 0px 60px 0px 60px;
     }
 }
