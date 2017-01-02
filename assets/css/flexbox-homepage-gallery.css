@@ -28,16 +28,19 @@ mobile-first */
   text-align: center;
   -ms-flex-pack: center;
   justify-content: center;
-  padding: 30px 15px 30px 15px;
   -ms-flex-positive: 1;
   flex-grow: 1;
   width: 100%; }
   .flex-item a {
-    color: #dae1e5; }
+    display: block;
+    color: #dae1e5;
+    padding: 30px 15px 30px 15px; }
 
 .flex-item:nth-child(1) {
   background-color: #c6b1ad;
-  color: black; }
+  color: black;
+  padding: 30px 15px 30px 15px;
+  margin: 0 0 5px 0; }
 
 @media only screen and (min-width: 600px) {
   .flex-container {

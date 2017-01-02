@@ -144,9 +144,16 @@ code {
 /* Flexbox navigation bar */
 /* mobile-first reworking of nav bar from css-tricks.com/snippets/css/a-guide-to-flexbox/ */
 
-.header {   /* flex-container */
+nav ul{
+    background: $nav-background;
+    width: 100%;
+    margin: 0; 
+    list-style: none;
+}
+.header ul{   /* flex-container */
     height: 190px;
     padding: 15px 5px 5px 0;
+    margin: 0;
     border-top: 1px solid rgba(0,0,0,0.1);
     border-bottom: 1px solid rgba(255,255,255,0.3);
 
@@ -155,9 +162,10 @@ code {
     justify-content: center;
     display: flex;
 }
-.footer {   /* flex-container */
+.footer ul {   /* flex-container */
     height: 85px;
     padding: 30px 5px 30px 5px;
+    margin: 0;
     border-top: 1px solid rgba(255,255,255,0.3);
     border-bottom: 1px solid rgba(0,0,0,0.1);
 
@@ -166,13 +174,7 @@ code {
     justify-content: center;
     display: flex;
 }
-.navigation {
-    background: $nav-background;
-    width: 100%;
-    margin: 0; 
-    list-style: none;
-}
-.navigation li {   /* flex-item */
+nav li{   /* flex-item */
     display: block;
     height: 25px;
     text-align: center;
@@ -185,31 +187,33 @@ code {
     width: 35%;
     padding: 0 25px 0 25px;
 }
-li.logo {
-    width: 100%;
-    height: 70px;
-    padding: 0;
-}
-.navigation a {
+
+nav a {
     color: $nav-color;
     text-decoration: none;
     font-size: 1.2em;
     font-weight: normal;
+    display: block;
 }
-.navigation a.visited {
-    color: lighten($nav-color, 10%);
+nav a:visited {
+    color: $nav-color;
 }
-.navigation a:hover {
+nav a:hover {
     color: $color4;
 }
-.navigation img {
-    height: 100%;
-    margin: auto;
-    line-height: 0;
+nav .logo {
+    width: 100%;
+    height: 70px;
+    padding: 0;
+
+    img {
+        width: auto;
+        height: 70px;
+    }
 }
 
 @media only screen and (min-width: 600px) {
-    .header {
+    .header ul {
         flex-flow: row nowrap;
         padding: 0;
         height: 85px;
@@ -218,11 +222,14 @@ li.logo {
         width: auto;
         padding: 30px 19px 30px 19px;
     }
-    li.logo {
-        width: 250px;
-        height: 100%;
-        padding: 25px 0 25px 0;
+    nav .logo {
+        width: 175px;
+        padding: 20px 0 0px 0;
         margin-right: auto; /* pushes logo to the left side of the screen */
+    
+        img {
+            height: 100%;
+        }
     }
     .footer li {
         width: auto;
@@ -233,9 +240,9 @@ li.logo {
     .header li {
         padding: 30px 35px 30px 35px;
     }
-    li.logo {
+    nav .logo {
         width: 250px;
-        padding: 18px 0 18px 0;
+        padding: 12px 0 0px 0;
     }
 }
 

@@ -29,19 +29,22 @@ $color5: rgb(162, 160, 170); /* light purple */
     font-size: 1.2em;
     text-align: center;
     justify-content: center;
-    padding: 30px 15px 30px 15px;
 
     flex-grow: 1;
     width: 100%;
 
     a {
+        display: block;
         color: $color3;
+        padding: 30px 15px 30px 15px;
     }
 }
 
 .flex-item:nth-child(1) {
     background-color: $color4;
     color: black;
+    padding: 30px 15px 30px 15px;
+    margin: 0 0 5px 0;
 }
 
 @media only screen and (min-width: 600px) {

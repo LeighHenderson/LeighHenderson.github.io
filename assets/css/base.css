@@ -119,10 +119,17 @@ code {
 
 /* Flexbox navigation bar */
 /* mobile-first reworking of nav bar from css-tricks.com/snippets/css/a-guide-to-flexbox/ */
-.header {
+nav ul {
+  background: #444444;
+  width: 100%;
+  margin: 0;
+  list-style: none; }
+
+.header ul {
   /* flex-container */
   height: 190px;
   padding: 15px 5px 5px 0;
+  margin: 0;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   -ms-flex-flow: row wrap;
@@ -134,10 +141,11 @@ code {
   display: -ms-flexbox;
   display: flex; }
 
-.footer {
+.footer ul {
   /* flex-container */
   height: 85px;
   padding: 30px 5px 30px 5px;
+  margin: 0;
   border-top: 1px solid rgba(255, 255, 255, 0.3);
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   -ms-flex-flow: row wrap;
@@ -149,13 +157,7 @@ code {
   display: -ms-flexbox;
   display: flex; }
 
-.navigation {
-  background: #444444;
-  width: 100%;
-  margin: 0;
-  list-style: none; }
-
-.navigation li {
+nav li {
   /* flex-item */
   display: block;
   height: 25px;
@@ -169,30 +171,29 @@ code {
   width: 35%;
   padding: 0 25px 0 25px; }
 
-li.logo {
-  width: 100%;
-  height: 70px;
-  padding: 0; }
-
-.navigation a {
+nav a {
   color: white;
   text-decoration: none;
   font-size: 1.2em;
-  font-weight: normal; }
+  font-weight: normal;
+  display: block; }
 
-.navigation a.visited {
+nav a:visited {
   color: white; }
 
-.navigation a:hover {
+nav a:hover {
   color: #c6b1ad; }
 
-.navigation img {
-  height: 100%;
-  margin: auto;
-  line-height: 0; }
+nav .logo {
+  width: 100%;
+  height: 70px;
+  padding: 0; }
+  nav .logo img {
+    width: auto;
+    height: 70px; }
 
 @media only screen and (min-width: 600px) {
-  .header {
+  .header ul {
     -ms-flex-flow: row nowrap;
     flex-flow: row nowrap;
     padding: 0;
@@ -200,12 +201,13 @@ li.logo {
   .header li {
     width: auto;
     padding: 30px 19px 30px 19px; }
-  li.logo {
-    width: 250px;
-    height: 100%;
-    padding: 25px 0 25px 0;
+  nav .logo {
+    width: 175px;
+    padding: 20px 0 0px 0;
     margin-right: auto;
     /* pushes logo to the left side of the screen */ }
+    nav .logo img {
+      height: 100%; }
   .footer li {
     width: auto;
     padding: 0px 60px 0px 60px; } }
@@ -213,6 +215,6 @@ li.logo {
 @media only screen and (min-width: 800px) {
   .header li {
     padding: 30px 35px 30px 35px; }
-  li.logo {
+  nav .logo {
     width: 250px;
-    padding: 18px 0 18px 0; } }
+    padding: 12px 0 0px 0; } }
