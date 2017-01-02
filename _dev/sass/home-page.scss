@@ -61,32 +61,32 @@ main {
     max-width: 400px;
 }
 
-div.slideshow{
+.slideshow div{
     text-align: center;
     position: relative;
     max-width: 1200px;
     min-height: 230px;
     margin: auto;
 }
-img.slideshow{
+.slideshow img{
     margin: auto;
     max-height: 200px;
     max-width: 100%;
 }
 @media only screen and (min-width: 600px) {
-    div.slideshow{
+    .slideshow div{
         min-height: 330px;
     }
-    img.slideshow{
+    .slideshow img{
         max-height: 300px;
     }
     
 }
 @media only screen and (min-width: 1200px) {
-    div.slideshow{
+    .slideshow div{
         min-height: 430px;
     }
-    img.slideshow{
+    .slideshow img{
         max-height: 400px;
     }
     
@@ -94,10 +94,6 @@ img.slideshow{
 
 button.slideshow {
     color: $color3;
-    font-size: 16px;
-    text-align: center;
-    line-height:20px;
-
     border-radius: 50%;
 
     background: none;
@@ -107,9 +103,9 @@ button.slideshow {
     width: 20px;
     height: 20px;
 
-    position: relative;
+    display: inline-block;
 }
-a.slideshow {
+.slideshow a {
     color: $color3;
     font-weight: bold;
     font-size: 1.2em;
@@ -118,9 +114,28 @@ a.slideshow {
 }
 
 button.slideshow:nth-child(1),
-button.slideshow:nth-last-child(1) {
-    
+button.slideshow:nth-last-child(1) {   /* Triangle button hack from https://css-tricks.com/snippets/css/css-triangle/ */
+    border-radius: 0;
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
 }
+button.slideshow:nth-child(1) {
+    border-right: 20px solid white;
+}
+button.slideshow:nth-last-child(1) {
+    border-left: 20px solid white;
+}
+button.slideshow:nth-child(1):hover {
+    background: none;
+    border-right: 20px solid pink;
+}
+button.slideshow:nth-last-child(1):hover {
+    background: none;
+    border-left: 20px solid pink;
+}
+
 button.slideshow:nth-child(4n+2) {
     background: $color1;
 }

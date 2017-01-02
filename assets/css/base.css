@@ -203,7 +203,7 @@ nav .logo {
     padding: 30px 19px 30px 19px; }
   nav .logo {
     width: 175px;
-    padding: 20px 0 0px 0;
+    padding: 20px 0 0 5px;
     margin-right: auto;
     /* pushes logo to the left side of the screen */ }
     nav .logo img {
@@ -216,5 +216,5 @@ nav .logo {
   .header li {
     padding: 30px 35px 30px 35px; }
   nav .logo {
-    width: 250px;
-    padding: 12px 0 0px 0; } }
+    width: 245px;
+    padding: 12px 0 0 5px; } }
