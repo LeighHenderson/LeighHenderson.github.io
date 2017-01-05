@@ -1,11 +1,14 @@
 /* Flexbox set-up 
 mobile-first */
-/* bright tropical color scheme */
-/* salmon */
-/* teal */
-/* blue */
-/* green */
-/* yellow */
+/* turkey feathers color scheme */
+/* light blue-gray */
+/* blue-gray */
+/* heather */
+/* light mauve */
+/* light purple */
+/* chocolate */
+/* dark gray */
+/* darker gray */
 .flex-container {
   padding: 0;
   margin: 0;
@@ -58,35 +61,35 @@ mobile-first */
     flex-basis: 25%; } }
 
 .flex-item:nth-child(5n+1) {
-  background: #F24C4E; }
+  background: #f4fbfd; }
 
 .flex-item:nth-child(5n+1):hover {
-  background: #f57c7d; }
+  background: white; }
 
 .flex-item:nth-child(5n+2) {
-  background: #1FB58F;
+  background: #daeaf3;
   color: white; }
 
 .flex-item:nth-child(5n+2):hover {
-  background: #2cdbaf; }
+  background: white; }
 
 .flex-item:nth-child(5n+3) {
-  background: #67CCFF; }
+  background: #dae1e5; }
 
 .flex-item:nth-child(5n+3):hover {
-  background: #9addff; }
+  background: #f8f9fa; }
 
 .flex-item:nth-child(5n+4) {
-  background: #1B7B34; }
+  background: #c6b1ad; }
 
 .flex-item:nth-child(5n+4):hover {
-  background: #24a546; }
+  background: #dbcecb; }
 
 .flex-item:nth-child(5n+5) {
-  background: #EAB126; }
+  background: #a2a0aa; }
 
 .flex-item:nth-child(5n+5):hover {
-  background: #efc255; }
+  background: #bcbbc2; }
 
 main {
   background-color: transparent; }

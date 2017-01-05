@@ -1,3 +1,4 @@
+/* turkey feathers colors */
 /* light blue-gray */
 /* blue-gray */
 /* heather */
@@ -113,18 +114,6 @@ button.slideshow:nth-child(1):hover {
 button.slideshow:nth-last-child(1):hover {
   background: none;
   border-left: 20px solid pink; }
-
-button.slideshow:nth-child(4n+2) {
-  background: #f4fbfd; }
-
-button.slideshow:nth-child(4n+3) {
-  background: #daeaf3; }
-
-button.slideshow:nth-child(4n+4) {
-  background: #dae1e5; }
-
-button.slideshow:nth-child(4n+4) {
-  background: #a2a0aa; }
 
 button.slideshow:hover {
   background: pink; }

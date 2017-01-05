@@ -12,14 +12,16 @@ category: navigation
 
 As a graduate student in genetics, I mentored dozens of undergraduate, graduate, and medical students through projects in the laboratory. Along the way, I wrote out protocols to help my students learn. Now I'm making that information available to *you*. I'll also post background information about how each protocol works.
 
-You might have noticed: I like learning new things. Web design is my newest project, albeit *in silico*. By working on this website, I'd like to earn the following stripes:
+I like learning new things. Web design is my current project. By working on this website, I'd like to earn the following stripes:
 
-<i class="fa fa-check-circle"> Bash basics (no cheating with GUIs)  
+<i class="fa fa-check-circle"> Bash basics
 <i class="fa fa-check-circle"> Version control with git and GitHub  
 <i class="fa fa-check-circle"> Package management with Homebrew  
 <i class="fa fa-check-circle"> Set up my Ruby development environment, starting with rbenv  
 <i class="fa fa-check-circle"> Use Ruby gems  
 <i class="fa fa-check-circle"> Build a website with Jekyll  
+<i class="fa fa-check-circle"> Develop a website with Gulp
+<i class="fa fa-check-circle"> Incorporate Autoprefixer into my Gulp development pipeline
 <i class="fa fa-check-circle"> Write in Markdown  
 <i class="fa fa-check-circle"> Write in HTML  
 <i class="fa fa-check-circle"> Write in CSS  

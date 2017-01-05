@@ -1,12 +1,15 @@
 /* Flexbox set-up 
 mobile-first */
 
-/* bright tropical color scheme */
-$color1: #F24C4E; /* salmon */
-$color2: #1FB58F; /* teal */
-$color3: #67CCFF; /* blue */
-$color4: #1B7B34;  /* green */
-$color5: #EAB126; /* yellow */
+/* turkey feathers color scheme */
+$color1: rgb(244, 251, 253); /* light blue-gray */
+$color2: rgb(218, 234, 243); /* blue-gray */
+$color3: rgb(218, 225, 229); /* heather */
+$color4: rgb(198, 177, 173);  /* light mauve */
+$color5: rgb(162, 160, 170); /* light purple */
+$color6: rgb(55, 49, 45); /* chocolate */
+$color7: rgb(56, 56, 56); /* dark gray */
+$color8: rgb(34, 35, 39); /* darker gray */
 
 .flex-container {
     padding: 0;

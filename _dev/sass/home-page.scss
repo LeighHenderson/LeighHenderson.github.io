@@ -1,3 +1,4 @@
+/* turkey feathers colors */
 $color1: rgb(244, 251, 253); /* light blue-gray */
 $color2: rgb(218, 234, 243); /* blue-gray */
 $color3: rgb(218, 225, 229); /* heather */
@@ -136,18 +137,6 @@ button.slideshow:nth-last-child(1):hover {
     border-left: 20px solid pink;
 }
 
-button.slideshow:nth-child(4n+2) {
-    background: $color1;
-}
-button.slideshow:nth-child(4n+3) {
-    background: $color2;
-}
-button.slideshow:nth-child(4n+4) {
-    background: $color3;
-}
-button.slideshow:nth-child(4n+4) {
-    background: $color5;
-}
 button.slideshow:hover {
     background: pink;
 }

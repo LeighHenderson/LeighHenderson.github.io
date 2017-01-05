@@ -8,6 +8,7 @@ permalink: /CRISPR_basics/
 category: concept
 ---
 # {{ page.title }}
+
 ## Background
 Every gene is a sequence of the four same bases: A, C, G, and T.  Genetic diseases can occur when that sequence is changed, or mutated, from the usual sequence. For example, a mutation that changes the sequence from ATCTTT to ATT (a deletion of the bases CTT) in the gene *CFTR* can cause the disease cystic fibrosis. 
 9 is a technique for gene editing. It allows for the introduction of mutations at specific locations in the genome.
