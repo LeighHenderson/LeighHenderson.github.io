@@ -14,19 +14,19 @@ As a graduate student in genetics, I mentored dozens of undergraduate, graduate,
 
 I like learning new things. Web design is my current project. By working on this website, I'd like to earn the following stripes:
 
-<i class="fa fa-check-circle"> Bash basics
+<i class="fa fa-check-circle"> Bash basics  
 <i class="fa fa-check-circle"> Version control with git and GitHub  
 <i class="fa fa-check-circle"> Package management with Homebrew  
 <i class="fa fa-check-circle"> Set up my Ruby development environment, starting with rbenv  
 <i class="fa fa-check-circle"> Use Ruby gems  
 <i class="fa fa-check-circle"> Build a website with Jekyll  
-<i class="fa fa-check-circle"> Develop a website with Gulp
-<i class="fa fa-check-circle"> Incorporate Autoprefixer into my Gulp development pipeline
+<i class="fa fa-check-circle"> Develop a website with Gulp  
+<i class="fa fa-check-circle"> Incorporate Autoprefixer into my Gulp development pipeline  
 <i class="fa fa-check-circle"> Write in Markdown  
 <i class="fa fa-check-circle"> Write in HTML  
 <i class="fa fa-check-circle"> Write in CSS  
 <i class="fa fa-check-circle"> Responsive, mobile-first website design  
-<i class="fa fa-circle-o"> Improve search ranking with Google analytics 
+<i class="fa fa-circle-o"> Improve search ranking with Google analytics  
 
 In the future, I'll learn:
 

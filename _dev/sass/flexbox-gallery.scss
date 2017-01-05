@@ -35,10 +35,16 @@ $color8: rgb(34, 35, 39); /* darker gray */
     font-size: 1.2em;
     text-align: center;
     justify-content: center;
-    padding: 30px 15px 30px 15px;
 
     flex-grow: 1;
     width: 100%;
+
+    a {
+        display: block;
+        height: 100%;
+        width: 100%;
+        padding: 30px 15px 30px 15px;
+    }
 
     a:hover {
         color: black;
@@ -68,7 +74,7 @@ $color8: rgb(34, 35, 39); /* darker gray */
     background: $color1;
 }
 .flex-item:nth-child(5n+1):hover {
-        background: lighten($color1, 10%);
+        background: darken($color1, 10%);
 }
 
 .flex-item:nth-child(5n+2) {
@@ -76,28 +82,28 @@ $color8: rgb(34, 35, 39); /* darker gray */
     color: white;
 }
 .flex-item:nth-child(5n+2):hover {
-        background: lighten($color2, 10%);
+        background: darken($color2, 10%);
 }
 
 .flex-item:nth-child(5n+3) {
     background: $color3;
 }
 .flex-item:nth-child(5n+3):hover {
-        background: lighten($color3, 10%);
+        background: darken($color3, 10%);
 }
 
 .flex-item:nth-child(5n+4) {
     background: $color4;
 }
 .flex-item:nth-child(5n+4):hover {
-        background: lighten($color4, 10%);
+        background: darken($color4, 10%);
 }
 
 .flex-item:nth-child(5n+5) {
     background: $color5;
 }
 .flex-item:nth-child(5n+5):hover {
-        background: lighten($color5, 10%);
+        background: darken($color5, 10%);
 }
 
 main {

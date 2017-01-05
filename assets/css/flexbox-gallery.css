@@ -36,10 +36,14 @@ mobile-first */
   text-align: center;
   -ms-flex-pack: center;
   justify-content: center;
-  padding: 30px 15px 30px 15px;
   -ms-flex-positive: 1;
   flex-grow: 1;
   width: 100%; }
+  .flex-item a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    padding: 30px 15px 30px 15px; }
   .flex-item a:hover {
     color: black; }
 
@@ -64,32 +68,32 @@ mobile-first */
   background: #f4fbfd; }
 
 .flex-item:nth-child(5n+1):hover {
-  background: white; }
+  background: #c9ebf5; }
 
 .flex-item:nth-child(5n+2) {
   background: #daeaf3;
   color: white; }
 
 .flex-item:nth-child(5n+2):hover {
-  background: white; }
+  background: #b3d4e7; }
 
 .flex-item:nth-child(5n+3) {
   background: #dae1e5; }
 
 .flex-item:nth-child(5n+3):hover {
-  background: #f8f9fa; }
+  background: #bcc9d0; }
 
 .flex-item:nth-child(5n+4) {
   background: #c6b1ad; }
 
 .flex-item:nth-child(5n+4):hover {
-  background: #dbcecb; }
+  background: #b1948f; }
 
 .flex-item:nth-child(5n+5) {
   background: #a2a0aa; }
 
 .flex-item:nth-child(5n+5):hover {
-  background: #bcbbc2; }
+  background: #888592; }
 
 main {
   background-color: transparent; }
