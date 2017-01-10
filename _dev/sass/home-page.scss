@@ -92,20 +92,6 @@ main {
     }
     
 }
-
-button.slideshow {
-    color: $color3;
-    border-radius: 50%;
-
-    background: none;
-    padding: none;
-    border: none;
-    margin: 5px;
-    width: 20px;
-    height: 20px;
-
-    display: inline-block;
-}
 .slideshow a {
     color: $color3;
     font-weight: bold;
@@ -114,11 +100,23 @@ button.slideshow {
     justify-content: center;
 }
 
+button.slideshow {
+    border-radius: 100%;
+
+    background: $color3;
+    padding: 0;
+    border: none;
+    margin: 10px 5px 10px 5px;
+    width: 20px;
+    height: 20px;
+}
 button.slideshow:nth-child(1),
 button.slideshow:nth-last-child(1) {   /* Triangle button hack from https://css-tricks.com/snippets/css/css-triangle/ */
     border-radius: 0;
+    background: none;
     width: 0;
     height: 0;
+    margin: 0 5px 0 5px;
     border-top: 15px solid transparent;
     border-bottom: 15px solid transparent;
 }
@@ -128,15 +126,17 @@ button.slideshow:nth-child(1) {
 button.slideshow:nth-last-child(1) {
     border-left: 20px solid white;
 }
+
 button.slideshow:nth-child(1):hover {
     background: none;
-    border-right: 20px solid pink;
+    border-right: 20px solid $color4;
 }
 button.slideshow:nth-last-child(1):hover {
     background: none;
-    border-left: 20px solid pink;
+    border-left: 20px solid $color4;
+}
+button.slideshow:not(:nth-child(1)):not(:nth-last-child(1)):hover {
+    background: $color4 !important;
 }
 
-button.slideshow:hover {
-    background: pink;
-}
+

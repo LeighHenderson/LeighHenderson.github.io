@@ -32,7 +32,7 @@ stylesheets:
     {% endfor %}
 </div>
 
-<div style="text-align:center; height:30px; position:relative;">
+<div style="text-align:center; height:40px;">
     <button class="slideshow" onclick="plusDivs(-1)"></button>
 
     {% for page in site.pages %} 
@@ -66,10 +66,10 @@ function showDivs(n) {
   if (n < 1) {slideIndex = x.length}
   for (i = 0; i < x.length; i++) {
      x[i].style.display = "none";
-     y[i].style.background = "rgb(218, 225, 229)";  
+     y[i].style.background = "rgb(218, 225, 229)"; 
   }
   x[slideIndex-1].style.display = "block";  
-  y[slideIndex-1].style.background = "pink";
+  y[slideIndex-1].style.background = "rgb(162, 160, 170)";
 }
 </script>
 
