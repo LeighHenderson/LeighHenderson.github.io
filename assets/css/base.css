@@ -60,12 +60,15 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   background-color: white;
-  background-image: url("/assets/background-cutout-DNA.svg"), linear-gradient(#daeaf3, #37312d);
-  background-size: 200px, 200px;
-  background-repeat: repeat-y, no-repeat;
-  background-position: top left, top left;
-  background-attachment: scroll, fixed;
   padding: 0; }
+
+@media only screen and (min-width: 600px) {
+  body {
+    background-image: url("/assets/background-cutout-DNA.svg"), linear-gradient(#daeaf3, #37312d);
+    background-size: 200px, 199px 100%;
+    background-repeat: repeat-y, no-repeat;
+    background-position: top left, top left;
+    background-attachment: scroll, fixed; } }
 
 @media only screen and (min-width: 800px) {
   font-size: 18px; }

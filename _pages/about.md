@@ -25,8 +25,9 @@ I like learning new things. Web design is my current project. By working on this
 <i class="fa fa-check-circle"> Write in Markdown  
 <i class="fa fa-check-circle"> Write in HTML  
 <i class="fa fa-check-circle"> Write in CSS  
-<i class="fa fa-check-circle"> Responsive, mobile-first website design  
+<i class="fa fa-check-circle"> Responsive, mobile-first website design 
 <i class="fa fa-circle-o"> Improve search ranking with Google analytics  
+<i class="fa fa-check-circle"> Design graphics in Photoshop and Inkscape
 
 In the future, I'll learn:
 
@@ -37,5 +38,5 @@ All this will result in some end products:
 
 <i class="fa fa-circle-o"> W3 Schools Certificate in HTML  
 <i class="fa fa-circle-o"> W3 Schools Certificate in CSS  
-<i class="fa fa-circle-o"> Design a Liquid site template; make available on GitHub  
+<i class="fa fa-circle-o"> Design a Liquid site template; make available on GitHub 
 
