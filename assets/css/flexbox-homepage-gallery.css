@@ -55,9 +55,13 @@ mobile-first */
     -ms-flex-preferred-size: 0;
     flex-basis: 0; }
   .flex-item:nth-child(1) {
-    border-bottom: 6px dotted #c6b1ad;
     background: none;
-    color: #dae1e5; } }
+    color: #dae1e5;
+    border-bottom: 10px solid #c6b1ad;
+    border-image: url("/assets/border_dots-light-mauve-sm.svg") 33.33% round;
+    /* Dotted borders render as squares in chrome
+        border-bottom: 6px dotted $color4;
+        */ } }
 
 @media only screen and (min-width: 1000px) {
   .flex-container {

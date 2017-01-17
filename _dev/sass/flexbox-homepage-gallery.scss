@@ -61,9 +61,15 @@ $color5: rgb(162, 160, 170); /* light purple */
         flex-basis: 0;
     }
     .flex-item:nth-child(1) {
-        border-bottom: 6px dotted $color4;
         background: none;
         color: $color3;
+
+        border-bottom: 10px solid $color4;
+        border-image: url('/assets/border_dots-light-mauve-sm.svg') 33.33% round;
+
+        /* Dotted borders render as squares in chrome
+        border-bottom: 6px dotted $color4;
+        */
     }
 }
 @media only screen and (min-width: 1000px) {

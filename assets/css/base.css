@@ -60,7 +60,7 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   background-color: white;
-  background-image: url("/assets/background-cutout-DNA.gif"), linear-gradient(#dae1e5, #a2a0aa);
+  background-image: url("/assets/background-cutout-DNA.svg"), linear-gradient(#daeaf3, #37312d);
   background-size: 200px, 200px;
   background-repeat: repeat-y, no-repeat;
   background-position: top left, top left;
