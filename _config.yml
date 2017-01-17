@@ -20,7 +20,7 @@ repository: LeighHenderson/LeighHenderson.github.io
 # twitter_username: jekyllrb
 github_username: LeighHenderson
 
-logo: "/assets/logo.png"
+logo: "/assets/logo.svg"
 
 # Build settings
 markdown: kramdown
