@@ -60,7 +60,8 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   background-color: white;
-  padding: 0; }
+  padding: 0;
+  height: 100%; }
 
 @media only screen and (min-width: 600px) {
   body {
@@ -148,6 +149,8 @@ nav ul {
 
 .footer ul {
   /* flex-container */
+  position: fixed;
+  bottom: 0;
   height: 85px;
   padding: 30px 5px 30px 5px;
   margin: 0;
