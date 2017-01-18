@@ -30,7 +30,7 @@ mobile-first */
   background: #FFFFFF;
   padding: 0;
   margin: 0;
-  color: white;
+  color: black;
   font-weight: bold;
   font-size: 1.2em;
   text-align: center;
@@ -46,6 +46,14 @@ mobile-first */
     padding: 30px 15px 30px 15px; }
   .flex-item a:hover {
     color: black; }
+  .flex-item i {
+    font-size: 3em; }
+
+.icon-item {
+  max-width: 150px; }
+  .icon-item img {
+    max-width: 100%;
+    max-height: 100%; }
 
 @media only screen and (min-width: 600px) {
   .flex-container {
@@ -57,12 +65,18 @@ mobile-first */
     height: 150px;
     -ms-flex-preferred-size: 33.33%;
     flex-basis: 33.33%;
-    min-width: 0; } }
+    min-width: 0; }
+  .flex-item i {
+    font-size: 3.5em; }
+  .icon-item {
+    max-width: 200px; } }
 
 @media only screen and (min-width: 800px) {
   .flex-item {
     -ms-flex-preferred-size: 25%;
-    flex-basis: 25%; } }
+    flex-basis: 25%; }
+  .felx-item i {
+    font-size: 4em; } }
 
 .flex-item:nth-child(5n+1) {
   background: #f4fbfd; }

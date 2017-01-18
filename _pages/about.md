@@ -40,3 +40,24 @@ All this will result in some end products:
 <i class="fa fa-circle-o"> W3 Schools Certificate in CSS  
 <i class="fa fa-circle-o"> Design a Liquid site template; make available on GitHub 
 
+<!--
+Recognition of the tools used to build this site:
+
+<ul class ="flex-container">
+    <li class ="flex-item icon-item">
+        <a href="">Apple Terminal<br><i class="fa fa-apple"></i></a>
+    </li>
+
+    <li class ="flex-item icon-item">
+        <a href="https://github.com/postcss/autoprefixer">Autoprefixer<br><img src="/assets/tool-icons/autoprefixer.png"></a>
+    </li>
+
+    <li class ="flex-item icon-item">
+        <a href="https://creativecommons.org/">Creative Commons<br><i class="fa fa-creative-commons"></i></a>
+    </li>
+
+     <li class ="flex-item icon-item">
+        <a href="https://github.com/{{site.github_username}}">Github<br><i class="fa fa-github"></i></a>
+    </li>
+</ul>
+-->

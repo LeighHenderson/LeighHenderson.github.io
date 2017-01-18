@@ -21,6 +21,7 @@ $h1-font-color: black;
 $link-color: #202020;
 $link-hover-color: #606060;
 
+$footer-height: 85px;
 
 /* Apply box-sizing to all elements so that width and height include padding and border */
 
@@ -65,15 +66,21 @@ $link-hover-color: #606060;
 
 /* Body, headers, paragraphs, etc. */
 
+html {
+    height: 100%;
+}
+
 body {
     margin: 0;
     color: $font-color;
     font-family: $font-style;
     font-size: 16px; 
-
     background-color: white;
-    padding: 0;
-    height: 100%;
+
+    /* below is critical for footer positioning */
+    padding: 0 0 $footer-height;
+    position: relative;
+    min-height: 100%;
 } 
 
 @media only screen and (min-width: 600px) {
@@ -164,11 +171,13 @@ nav ul{
     justify-content: center;
     display: flex;
 }
-.footer ul {   /* flex-container */
-    position: fixed;
+footer {
+    position: absolute;
     bottom: 0;
-
-    height: 85px;
+    width: 100%;
+}
+.footer ul {   /* flex-container */
+    height: $footer-height;
     padding: 30px 5px 30px 5px;
     margin: 0;
     border-top: 1px solid rgba(255,255,255,0.3);
