@@ -40,24 +40,27 @@ All this will result in some end products:
 <i class="fa fa-circle-o"> W3 Schools Certificate in CSS  
 <i class="fa fa-circle-o"> Design a Liquid site template; make available on GitHub 
 
-<!--
-Recognition of the tools used to build this site:
+I'd like to recognize the tools used to build this site:
 
-<ul class ="flex-container">
+<ul class ="flex-container about_tools">
+    {% for tool in site.data.about_tools %}
     <li class ="flex-item icon-item">
-        <a href="">Apple Terminal<br><i class="fa fa-apple"></i></a>
-    </li>
+        {% if tool.image and tool.image != ' ' %}
+        <a class="tooltip" href="{{ tool.website }}"><img src="/assets/tool-icons/{{ tool.image }}">
+            <span class="tooltiptext">{{ tool.name }}</span>
+        </a>
 
-    <li class ="flex-item icon-item">
-        <a href="https://github.com/postcss/autoprefixer">Autoprefixer<br><img src="/assets/tool-icons/autoprefixer.png"></a>
-    </li>
+        {% elsif tool.icon and tool.icon != ' ' %}
+        <a class="tooltip" href="{{ tool.website }}"><i class="fa {{ tool.icon }}"></i>
+            <span class="tooltiptext">{{ tool.name }}</span>
+        </a>
 
-    <li class ="flex-item icon-item">
-        <a href="https://creativecommons.org/">Creative Commons<br><i class="fa fa-creative-commons"></i></a>
-    </li>
+        {% else %}
+        <a class="tooltip" href="{{ tool.website }}" style="font-size: 2em;">{{ tool.name }}
+            <span class="tooltiptext">{{ tool.name }}</span>
+        </a>
+        {% endif %}
+    </li>        
+    {% endfor %} 
 
-     <li class ="flex-item icon-item">
-        <a href="https://github.com/{{site.github_username}}">Github<br><i class="fa fa-github"></i></a>
-    </li>
 </ul>
--->

@@ -1,0 +1,24 @@
+name,website,icon,image,details,tooltip,icon-alt
+Apple,https://www.apple.com/macos,fa-apple,,Terminal,,[&#xf179;]
+Autoprefixer,https://github.com/postcss/autoprefixer,,autoprefixer.png,,,
+Creative Commons,https://creativecommons.org/,fa-creative-commons,,,,[&#xf25e;]
+CSS,http://www.w3schools.com/w3css/,,css.svg,,,
+Firefox,https://developer.mozilla.org/en-US/docs/Tools/Tools_Toolbox,fa-firefox,,Firefox Dev Tools,,[&#xf269;]
+Git,https://git-scm.com/,fa-git,,,,[&#xf1d3;]
+Github,https://github.com/{{site.github_username}},fa-github-alt,,,,[&#xf113;]
+Google,https://www.google.com/analytics/,fa-google,,"Analytics, Webmaster Console, Chrome Dev Tools, Tag",,[&#xf1a0;]
+Gulp,http://gulpjs.com/,,gulp.svg,,,
+HTML5,http://www.w3schools.com/html/html5_intro.asp,fa-html5,HTML5_Badge.svg,,,[&#xf13b;]
+Homebrew, brew.sh,,homebrew.png,,,
+Inkscape,https://inkscape.org/en/,,inkscape.svg,,,
+Jekyll,https://jekyllrb.com/,,jekyll.svg,,,
+Photoshop,https://www.adobe.com/products/photoshop.html?promoid=1NZGDDSP&mv=other&origref=http%3A%2F%2Fwww.photoshop.com%2Fproducts,,photoshop_CS6.svg,,,
+Powerpoint,https://products.office.com/en-us/powerpoint,fa-file-powerpoint-o,,,Create diagrams,[&#xf1c4;]
+rbenv, https://github.com/rbenv/rbenv,,,,,
+Ruby, https://www.ruby-lang.org,,ruby.png,,,
+SASS,http://sass-lang.com/,,sass.png,,,
+Stack Overflow,https://stackoverflow.com/,fa-stack-overflow,,,,[&#xf16c;]
+Sublime Text,https://www.sublimetext.com/,,sublime-text.svg,,,
+Vi,https://en.wikipedia.org/wiki/Vi,,,,,
+Windows,https://www.microsoft.com/en-us/windows/,fa-windows,,,,[&#xf17a;]
+W3 schools,http://www.w3schools.com/,,w3schools.gif,,,

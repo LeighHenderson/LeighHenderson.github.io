@@ -27,6 +27,9 @@ $icon-large: 4em;
     justify-content: space-around;
     align-content: stretch;
 }
+.about_tools {
+    justify-content: flex-start;
+}
 .column {
     flex-flow: column wrap;
 }
@@ -41,7 +44,7 @@ $icon-large: 4em;
     text-align: center;
     justify-content: center;
 
-    flex-grow: 1;
+    flex-grow: 0;
     width: 100%;
 
     a {
@@ -59,6 +62,9 @@ $icon-large: 4em;
         font-size: $icon-small;
     }
 }
+.about_tools .flex-item {
+    max-height: 150px;
+}
 
 .icon-item {
     max-width: 150px;
@@ -72,7 +78,9 @@ $icon-large: 4em;
 @media only screen and (min-width: 600px) {
     .flex-container {
         align-items: center ;
-        justify-content: space-around;
+    }
+    .about_tools { /*flex-container on about page */
+        max-width: 600px;
     }
     .flex-item {
         height: 150px;
@@ -89,8 +97,14 @@ $icon-large: 4em;
 }
 
 @media only screen and (min-width: 800px) {
+    .about_tools { /*flex-container on about page */
+        max-width: 900px;
+    }
     .flex-item {
         flex-basis: 25%;
+    }
+    .about_tools .flex-item {
+        flex-basis: 16.66%;
     }
     .felx-item i {
         font-size: $icon-large;
