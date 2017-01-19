@@ -1,0 +1,40 @@
+$color1: rgb(244, 251, 253); /* light blue-gray */
+
+.container {
+    margin: auto;
+    padding: 0;
+    width: 450px;
+    list-style: none;
+    border: 1px solid black;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.two-column .item {
+ width: 50%;
+}
+
+.four-column .item {
+ width: 25%;
+}
+
+.item {
+    color: black;
+    background: $color1;
+    padding: 5px;
+    border-bottom: 1px solid black;
+
+    text-align: center;
+}
+
+.item.table-title {
+    width: 100%;
+    background: white;
+}
+.item.header {
+    background: black;
+    color: white;
+}

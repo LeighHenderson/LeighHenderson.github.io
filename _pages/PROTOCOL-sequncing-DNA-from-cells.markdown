@@ -3,6 +3,7 @@ title: "Sequencing DNA from cells"
 description: "Protocol for cellular DNA sequening. Covers isolation of genomic DNA, PCR amplification, isolation of the DNA sequence of interest, and purification of the DNA from a gel."
 
 permalink: /PROTOCOL-sequening-DNA-from-cells/
+stylesheets: flexbox-datatable
 category: protocol
 ---
 # PROTOCOL: {{ page.title }}
@@ -24,18 +25,36 @@ a.  Add Taq Polymerase last, aliquoted directly from the freezer. As an enzyme, 
 b.  A key to good PCR is mixing of each of the reagents; flick to mix
 c.  The chart below shows example volumes for each reagent. However, you should follow the recommendations that come with the Taq Polymerase kit. It is a good idea to trial different volumes when using new Taq or new primers in order to optimize the reaction
 
-<p style="background:red">(Reformat table)</p>
+<ul class="container two-column">
+    <li class="item table-title">Example master mix</li>
 
-Reagent | Example volume per sample (ul) | Recommended volume per sample (ul) | Optimized volume per sample (ul)
-----|----|----|----|
-10x Taq Buffer | 2.5 | | 
-dNTP (10uM each) | 0.5 | | 
-MgCl2 | 1.5 | | 
-ddH20 | 7.75 | | 
-10uM forward primer | 1.25 | | 
-10uM reverse primer | 1.25 | | 
-Taq Polymerase | 0.25 | | 
-Total | 15 | | 
+    <li class="item header">Reagent</li>
+    <li class="item header">Volume per sample (ul)</li>
+
+    <li class="item">10x Taq Buffer</li>
+    <li class="item">2.5</li>
+
+    <li class="item">dNTP (10uM each)</li>
+    <li class="item">0.5</li>
+
+    <li class="item">MgCl2</li>
+    <li class="item">1.5</li>
+
+    <li class="item">ddH20</li>
+    <li class="item">7.75</li>
+
+    <li class="item">10uM forward primer</li>
+    <li class="item">1.25</li>
+
+    <li class="item">10uM reverse primer</li>
+    <li class="item">1.25</li>
+
+    <li class="item">Taq Polymerase</li>
+    <li class="item">0.25</li>
+
+    <li class="item">Total</li>
+    <li class="item">15</li>
+</ul>
 
 
 2.  Aliquot 15ul master mix per sample into an 8-well strip tube
@@ -43,15 +62,34 @@ Total | 15 | |
 4.  PCR amplify
 a.  Again, you may need to optimize the reaction for new primers
 
-<p style="background:red">(INSERT TABLE)</p>
+<ul class="container four-column">
+    <li class="item table-title">Example PCR program</li>
 
-Stage | 1 | 2 | 3
---|--|--|--
-Cycles | x1 | x35 | x1
-Temperature | 95C | 95C, Tm of primers, 72C | 72C, 4C
-Purpose | TaqPol activation | denaturation | extension | annealing | final annealing, storage stablity 
-Example time | 5min | 30s, 30s, 30s/500bp | 5-10min, infinity
-Optimized time | | | 
+    <li class="item header">Stage</li>
+    <li class="item header">1</li>
+    <li class="item header">2</li>
+    <li class="item header">3</li>
+
+    <li class="item header">Cycles</li>
+    <li class="item">1</li>
+    <li class="item">35</li>
+    <li class="item">1</li>
+
+    <li class="item header">Temperature</li>
+    <li class="item">95C</li>
+    <li class="item">95C, Tm of primers, 72C</li>
+    <li class="item">72C, 4C</li>
+
+    <li class="item header">Purpose</li>
+    <li class="item">TaqPol activation</li>
+    <li class="item">denaturation, extension, annealing</li>
+    <li class="item">final annealing, storage stablity</li>
+
+    <li class="item header">Time</li>
+    <li class="item">5min</li>
+    <li class="item">30s, 30s, 30s per 500bp</li>
+    <li class="item">5-10min, infinite</li>
+</ul><br>
 
 ## Isolate sequence of interest on a DNA gel
 1.  Make a DNA gel (adjust amounts to fit gel mold)
