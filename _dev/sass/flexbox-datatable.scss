@@ -6,6 +6,7 @@ $color1: rgb(244, 251, 253); /* light blue-gray */
     width: 450px;
     list-style: none;
     border: 1px solid black;
+    /* add property to allow a scrollbar to appear on small screensizes */
 
     display: flex;
     flex-flow: row wrap;
@@ -14,11 +15,13 @@ $color1: rgb(244, 251, 253); /* light blue-gray */
 }
 
 .two-column .item {
- width: 50%;
+    width: 50%;
 }
-
+.three-column .item {
+    width: 33.33%;
+}
 .four-column .item {
- width: 25%;
+    width: 25%;
 }
 
 .item {

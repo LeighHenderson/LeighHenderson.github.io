@@ -42,9 +42,9 @@ All this will result in some end products:
 
 I'd like to recognize the tools used to build this site:
 
-<ul class ="flex-container about_tools">
+<div class ="flex-container" style="justify-content: center; max-width: 900px;">
     {% for tool in site.data.about_tools %}
-    <li class ="flex-item icon-item">
+    <div class ="flex-item icon-item" style="height:150px;">
         {% if tool.image and tool.image != ' ' %}
         <a class="tooltip" href="{{ tool.website }}"><img src="/assets/tool-icons/{{ tool.image }}">
             <span class="tooltiptext">{{ tool.name }}</span>
@@ -60,7 +60,7 @@ I'd like to recognize the tools used to build this site:
             <span class="tooltiptext">{{ tool.name }}</span>
         </a>
         {% endif %}
-    </li>        
+    </div>        
     {% endfor %} 
 
-</ul>
+</div>

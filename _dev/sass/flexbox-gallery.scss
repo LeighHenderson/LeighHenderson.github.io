@@ -18,7 +18,7 @@ $icon-large: 4em;
 
 .flex-container {
     padding: 0;
-    margin: 0;
+    margin: auto;
     
     list-style: none;
 
@@ -26,9 +26,6 @@ $icon-large: 4em;
     flex-flow: row wrap;
     justify-content: space-around;
     align-content: stretch;
-}
-.about_tools {
-    justify-content: flex-start;
 }
 .column {
     flex-flow: column wrap;
@@ -61,26 +58,21 @@ $icon-large: 4em;
     i {
         font-size: $icon-small;
     }
-}
-.about_tools .flex-item {
-    max-height: 150px;
-}
-
-.icon-item {
-    max-width: 150px;
 
     img {
         max-width: 100%;
         max-height: 100%;
     }
 }
-
+@media only screen and (min-width: 300px) {
+    .icon-item {
+        min-width: 150px;
+        flex-basis: 50%;
+    }
+}
 @media only screen and (min-width: 600px) {
     .flex-container {
         align-items: center ;
-    }
-    .about_tools { /*flex-container on about page */
-        max-width: 600px;
     }
     .flex-item {
         height: 150px;
@@ -92,22 +84,21 @@ $icon-large: 4em;
         font-size: $icon-medium;
     }
     .icon-item {
-        max-width: 200px;
+        flex-basis: 25%;
+        min-width: 150px;
+
     }
 }
 
 @media only screen and (min-width: 800px) {
-    .about_tools { /*flex-container on about page */
-        max-width: 900px;
-    }
     .flex-item {
         flex-basis: 25%;
     }
-    .about_tools .flex-item {
-        flex-basis: 16.66%;
-    }
     .felx-item i {
         font-size: $icon-large;
+    }
+    .icon-item {
+        flex-basis: 16.66%;
     }
 }
 

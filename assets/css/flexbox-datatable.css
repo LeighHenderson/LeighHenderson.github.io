@@ -5,6 +5,7 @@
   width: 450px;
   list-style: none;
   border: 1px solid black;
+  /* add property to allow a scrollbar to appear on small screensizes */
   display: -ms-flexbox;
   display: flex;
   -ms-flex-flow: row wrap;
@@ -16,6 +17,9 @@
 
 .two-column .item {
   width: 50%; }
+
+.three-column .item {
+  width: 33.33%; }
 
 .four-column .item {
   width: 25%; }
