@@ -1,4 +1,4 @@
-$font-style: 'Open Sans', sans-serif;
+$font-family: "Times New Roman", Times, Cambria, serif;;
 $heading-font: 'Muli', sans-serif;
 
 /* turkey feathers colors */
@@ -73,7 +73,7 @@ html {
 body {
     margin: 0;
     color: $font-color;
-    font-family: $font-style;
+    font-family: $font-family;
     font-size: 16px; 
     background-color: white;
 
