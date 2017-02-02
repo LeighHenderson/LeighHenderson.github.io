@@ -6,6 +6,9 @@ $color2: rgb(218, 234, 243); /* blue-gray */
 $color3: rgb(218, 225, 229); /* heather */
 $color4: rgb(198, 177, 173);  /* light mauve */
 $color5: rgb(162, 160, 170); /* light purple */
+$color6: rgb(55, 49, 45); /* chocolate */
+$color7: rgb(56, 56, 56); /* dark gray */
+$color8: rgb(34, 35, 39); /* darker gray */
 
 .flex-container {
     padding: 0;
@@ -20,9 +23,10 @@ $color5: rgb(162, 160, 170); /* light purple */
 }
 
 .flex-item {
-    background: none;
-    padding: 0;
-    margin: 0;
+    background: rgba(254, 254, 254, 0.4);
+    border: 1px solid $color3;
+    border-radius: 3%;
+    box-shadow: 1px 1px 7px rgba(153, 153, 153, 0.2);
 
     color: $color3;
     font-weight: bold;
@@ -30,19 +34,27 @@ $color5: rgb(162, 160, 170); /* light purple */
     text-align: center;
     justify-content: center;
 
+    padding: 0;
+    margin: 5px 0 5px 0;
+
     flex-grow: 1;
     width: 100%;
 
     a {
         display: block;
-        color: $color3;
+        color: black;
         padding: 30px 15px 30px 15px;
     }
 }
 
 .flex-item:nth-child(1) {
-    background-color: $color4;
+    background-color: transparent;
     color: black;
+    border-bottom: 10px solid $color4;
+    border-top: 10px solid $color4;
+    border-image: url('/assets/border_dots-heather-sm.svg') 33.33% round;
+    box-shadow: none;
+
     padding: 30px 15px 30px 15px;
     margin: 0 0 5px 0;
 }
@@ -61,15 +73,15 @@ $color5: rgb(162, 160, 170); /* light purple */
         flex-basis: 0;
     }
     .flex-item:nth-child(1) {
-        background: none;
-        color: $color3;
-
-        border-bottom: 10px solid $color4;
-        border-image: url('/assets/border_dots-light-mauve-sm.svg') 33.33% round;
+        border: none;
+        border-bottom: 10px solid $color3;
+        border-image: url('/assets/border_dots-heather-sm.svg') 33.33% round;
 
         /* Dotted borders render as squares in chrome
         border-bottom: 6px dotted $color4;
         */
+
+        padding: 15px;
     }
 }
 @media only screen and (min-width: 1000px) {

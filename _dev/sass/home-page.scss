@@ -4,10 +4,17 @@ $color2: rgb(218, 234, 243); /* blue-gray */
 $color3: rgb(218, 225, 229); /* heather */
 $color4: rgb(198, 177, 173);  /* light mauve */
 $color5: rgb(162, 160, 170); /* light purple */
+$color6: rgb(55, 49, 45); /* chocolate */
+$color7: rgb(56, 56, 56); /* dark gray */
+$color8: rgb(34, 35, 39); /* darker gray */
 
 body {
-    background: none;
-    background-color: #000000;
+    background-color: rgb(254, 254, 255);
+    background-image: url('/assets/background-grid.png');
+    background-size: 12px 12px;
+    background-repeat: repeat;
+    background-position: bottom right;
+    background-attachment: scroll;
 }
 
 main {
@@ -27,27 +34,26 @@ main {
     background-color: $color1;
     background-image: url('/assets/background-texture.gif'),
                       url('/assets/background_turkeyFeathers.gif' );
-    background-size: 64px, 800px;
+    background-size: 64px, 601px;
     background-repeat: repeat, no-repeat;
     background-position: top left, 48% -120px;
     background-attachment: fixed, scroll;
     padding: 0;
 
-    height: 150px;
+    height: 100px;
 }
 @media only screen and (min-width: 600px) {
     .crop-height {
         background-position: top left, 48% -100px;
         background-size: 64px, 1200px;
-        
-        height: 200px;
+        height: 100px;
     }
     
 }
 @media only screen and (min-width: 1200px) {
     .crop-height {
         background-position: top left, center -230px;
-        background-size: 64px, 1600px;
+        background-size: 64px, 1400px;
         background-repeat: repeat, repeat;
     }
     
@@ -73,6 +79,9 @@ main {
     margin: auto;
     max-height: 200px;
     max-width: 100%;
+
+    border: 1px solid $color3;
+    border-radius: 3%;
 }
 @media only screen and (min-width: 600px) {
     .slideshow div{
@@ -93,7 +102,7 @@ main {
     
 }
 .slideshow a {
-    color: $color3;
+    color: black;
     font-weight: bold;
     font-size: 1.2em;
     text-align: center;
@@ -121,10 +130,10 @@ button.slideshow:nth-last-child(1) {   /* Triangle button hack from https://css-
     border-bottom: 15px solid transparent;
 }
 button.slideshow:nth-child(1) {
-    border-right: 20px solid white;
+    border-right: 20px solid $color5;
 }
 button.slideshow:nth-last-child(1) {
-    border-left: 20px solid white;
+    border-left: 20px solid $color5;
 }
 
 button.slideshow:nth-child(1):hover {
