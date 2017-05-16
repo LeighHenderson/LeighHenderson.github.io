@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/leigh_henderson
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://leighhenderson.github.io
+  * I am leigh_henderson (https://keybase.io/leigh_henderson) on keybase.
+  * I have a public key ASDR0pLPg_rZsrc_DGtv96J7wnhUtMQiPa4F_fQmu6s8pwo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120d1d292cf83fad9b2b73f0c6b6ff7a27bc27854b4c4223dae05fdf426bbab3ca70a",
+            "host": "keybase.io",
+            "kid": "0120d1d292cf83fad9b2b73f0c6b6ff7a27bc27854b4c4223dae05fdf426bbab3ca70a",
+            "uid": "db099da755e049499dbab319d344b819",
+            "username": "leigh_henderson"
+        },
+        "service": {
+            "hostname": "leighhenderson.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.22"
+    },
+    "ctime": 1494961773,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1494961745,
+        "hash": "6e52a17309465cd2aeb08508c593b02f91f9fe300c5032f7105d7f3f4a3884f5509b5931a5afe77743469f46e16724ddf1d13b9c2caee8f6fc8df35e5feade7b",
+        "seqno": 1088624
+    },
+    "prev": "02bac9350409179aa1407c374700cfa91e8d2399a98cf44a603af3c856e46e9c",
+    "seqno": 6,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg0dKSz4P62bK3Pwxrb/eie8J4VLTEIj2uBf30JrurPKcKp3BheWxvYWTFAwh7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwZDFkMjkyY2Y4M2ZhZDliMmI3M2YwYzZiNmZmN2EyN2JjMjc4NTRiNGM0MjIzZGFlMDVmZGY0MjZiYmFiM2NhNzBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwZDFkMjkyY2Y4M2ZhZDliMmI3M2YwYzZiNmZmN2EyN2JjMjc4NTRiNGM0MjIzZGFlMDVmZGY0MjZiYmFiM2NhNzBhIiwidWlkIjoiZGIwOTlkYTc1NWUwNDk0OTlkYmFiMzE5ZDM0NGI4MTkiLCJ1c2VybmFtZSI6ImxlaWdoX2hlbmRlcnNvbiJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoibGVpZ2hoZW5kZXJzb24uZ2l0aHViLmlvIiwicHJvdG9jb2wiOiJodHRwczoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMjIifSwiY3RpbWUiOjE0OTQ5NjE3NzMsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTQ5NDk2MTc0NSwiaGFzaCI6IjZlNTJhMTczMDk0NjVjZDJhZWIwODUwOGM1OTNiMDJmOTFmOWZlMzAwYzUwMzJmNzEwNWQ3ZjNmNGEzODg0ZjU1MDliNTkzMWE1YWZlNzc3NDM0NjlmNDZlMTY3MjRkZGYxZDEzYjljMmNhZWU4ZjZmYzhkZjM1ZTVmZWFkZTdiIiwic2Vxbm8iOjEwODg2MjR9LCJwcmV2IjoiMDJiYWM5MzUwNDA5MTc5YWExNDA3YzM3NDcwMGNmYTkxZThkMjM5OWE5OGNmNDRhNjAzYWYzYzg1NmU0NmU5YyIsInNlcW5vIjo2LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQB1pT90UlLx97IAMn8z1jyxrJE8ax022PzXaL/uUA+QO+KHqRIYgxptipfNsgluSxZEZ9N+kzPLpQNYrjeGuQAmoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCA7rKpI9cy8P8Bus6GMZM1XuMN8f2LMJOIRKaXgZw34Z6N0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/leigh_henderson
+
+==================================================================
