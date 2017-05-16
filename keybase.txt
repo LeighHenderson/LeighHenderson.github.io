@@ -4,7 +4,6 @@ description: Proof of keybase identity
 permalink: /keybase.txt
 layout: none
 ---
-
 ==================================================================
 https://keybase.io/leigh_henderson
 --------------------------------------------------------------------
@@ -37,21 +36,21 @@ To do so, I am signing this object:
         "name": "keybase.io go client",
         "version": "1.0.22"
     },
-    "ctime": 1494961773,
+    "ctime": 1494965318,
     "expire_in": 504576000,
     "merkle_root": {
-        "ctime": 1494961745,
-        "hash": "6e52a17309465cd2aeb08508c593b02f91f9fe300c5032f7105d7f3f4a3884f5509b5931a5afe77743469f46e16724ddf1d13b9c2caee8f6fc8df35e5feade7b",
-        "seqno": 1088624
+        "ctime": 1494965308,
+        "hash": "272e879b7b4b804fb53066616e5e402463433185496d0e73bced3de1c435651cfc1bc2877f3e387d27bea4fd11789f847aa9ea9e76e4e5052997a90ef2df9583",
+        "seqno": 1088768
     },
-    "prev": "02bac9350409179aa1407c374700cfa91e8d2399a98cf44a603af3c856e46e9c",
-    "seqno": 6,
+    "prev": "bd3dac286db444034b6da7e5ba40fa1cdcbdb33699393e38de768c62901c7950",
+    "seqno": 11,
     "tag": "signature"
 }
 
 which yields the signature:
 
-hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg0dKSz4P62bK3Pwxrb/eie8J4VLTEIj2uBf30JrurPKcKp3BheWxvYWTFAwh7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwZDFkMjkyY2Y4M2ZhZDliMmI3M2YwYzZiNmZmN2EyN2JjMjc4NTRiNGM0MjIzZGFlMDVmZGY0MjZiYmFiM2NhNzBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwZDFkMjkyY2Y4M2ZhZDliMmI3M2YwYzZiNmZmN2EyN2JjMjc4NTRiNGM0MjIzZGFlMDVmZGY0MjZiYmFiM2NhNzBhIiwidWlkIjoiZGIwOTlkYTc1NWUwNDk0OTlkYmFiMzE5ZDM0NGI4MTkiLCJ1c2VybmFtZSI6ImxlaWdoX2hlbmRlcnNvbiJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoibGVpZ2hoZW5kZXJzb24uZ2l0aHViLmlvIiwicHJvdG9jb2wiOiJodHRwczoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMjIifSwiY3RpbWUiOjE0OTQ5NjE3NzMsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTQ5NDk2MTc0NSwiaGFzaCI6IjZlNTJhMTczMDk0NjVjZDJhZWIwODUwOGM1OTNiMDJmOTFmOWZlMzAwYzUwMzJmNzEwNWQ3ZjNmNGEzODg0ZjU1MDliNTkzMWE1YWZlNzc3NDM0NjlmNDZlMTY3MjRkZGYxZDEzYjljMmNhZWU4ZjZmYzhkZjM1ZTVmZWFkZTdiIiwic2Vxbm8iOjEwODg2MjR9LCJwcmV2IjoiMDJiYWM5MzUwNDA5MTc5YWExNDA3YzM3NDcwMGNmYTkxZThkMjM5OWE5OGNmNDRhNjAzYWYzYzg1NmU0NmU5YyIsInNlcW5vIjo2LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQB1pT90UlLx97IAMn8z1jyxrJE8ax022PzXaL/uUA+QO+KHqRIYgxptipfNsgluSxZEZ9N+kzPLpQNYrjeGuQAmoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCA7rKpI9cy8P8Bus6GMZM1XuMN8f2LMJOIRKaXgZw34Z6N0YWfNAgKndmVyc2lvbgE=
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg0dKSz4P62bK3Pwxrb/eie8J4VLTEIj2uBf30JrurPKcKp3BheWxvYWTFAwl7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwZDFkMjkyY2Y4M2ZhZDliMmI3M2YwYzZiNmZmN2EyN2JjMjc4NTRiNGM0MjIzZGFlMDVmZGY0MjZiYmFiM2NhNzBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwZDFkMjkyY2Y4M2ZhZDliMmI3M2YwYzZiNmZmN2EyN2JjMjc4NTRiNGM0MjIzZGFlMDVmZGY0MjZiYmFiM2NhNzBhIiwidWlkIjoiZGIwOTlkYTc1NWUwNDk0OTlkYmFiMzE5ZDM0NGI4MTkiLCJ1c2VybmFtZSI6ImxlaWdoX2hlbmRlcnNvbiJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoibGVpZ2hoZW5kZXJzb24uZ2l0aHViLmlvIiwicHJvdG9jb2wiOiJodHRwczoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMjIifSwiY3RpbWUiOjE0OTQ5NjUzMTgsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTQ5NDk2NTMwOCwiaGFzaCI6IjI3MmU4NzliN2I0YjgwNGZiNTMwNjY2MTZlNWU0MDI0NjM0MzMxODU0OTZkMGU3M2JjZWQzZGUxYzQzNTY1MWNmYzFiYzI4NzdmM2UzODdkMjdiZWE0ZmQxMTc4OWY4NDdhYTllYTllNzZlNGU1MDUyOTk3YTkwZWYyZGY5NTgzIiwic2Vxbm8iOjEwODg3Njh9LCJwcmV2IjoiYmQzZGFjMjg2ZGI0NDQwMzRiNmRhN2U1YmE0MGZhMWNkY2JkYjMzNjk5MzkzZTM4ZGU3NjhjNjI5MDFjNzk1MCIsInNlcW5vIjoxMSwidGFnIjoic2lnbmF0dXJlIn2jc2lnxEBJ94BWo9CpLGWW5UGX4tFLauU0gfgS+WLB3Agf5FZHnPn7X8OYgYORkaXNXvlCEALnWKN+d9SKolccAGFAPjQOqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQgDUCav/J31tEkQfBp/NrR2E9iyelKReiS3A9iaWXq99yjdGFnzQICp3ZlcnNpb24B
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
