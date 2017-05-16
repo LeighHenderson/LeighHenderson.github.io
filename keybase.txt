@@ -1,3 +1,10 @@
+---
+title: Keybase Proof
+description: Proof of keybase identity
+permalink: /keybase.txt
+layout: none
+---
+
 ==================================================================
 https://keybase.io/leigh_henderson
 --------------------------------------------------------------------
