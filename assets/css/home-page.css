@@ -49,8 +49,7 @@ main {
     background-repeat: repeat, repeat; } }
 
 .title {
-  background-color: #dae1e5;
-  opacity: 0.8;
+  background-color: black;
   margin: auto;
   height: 100%;
   width: 100%;
