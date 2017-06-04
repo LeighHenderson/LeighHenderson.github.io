@@ -49,11 +49,12 @@ main {
     background-repeat: repeat, repeat; } }
 
 .title {
-  background-color: black;
+  background-color: white;
+  opacity: 1;
   margin: auto;
   height: 100%;
   width: 100%;
-  max-width: 400px; }
+  max-width: 100%; }
 
 .slideshow div {
   text-align: center;
