@@ -1,7 +1,7 @@
 /* Flexbox set-up 
 mobile-first */
 /* turkey feathers color scheme */
-/* light blue-gray */
+/* light blue-gray SHOWS UP AS WHITE ON CHROME BROWSER*/
 /* blue-gray */
 /* heather */
 /* light mauve */
@@ -84,35 +84,29 @@ mobile-first */
     -ms-flex-preferred-size: 16.66%;
     flex-basis: 16.66%; } }
 
-.flex-item:nth-child(5n+1) {
-  background: #f4fbfd; }
+.flex-item:nth-child(4n+1) {
+  background: #daeaf3; }
 
-.flex-item:nth-child(5n+1):hover {
-  background: #c9ebf5; }
-
-.flex-item:nth-child(5n+2) {
-  background: #daeaf3;
-  color: white; }
-
-.flex-item:nth-child(5n+2):hover {
+.flex-item:nth-child(4n+1):hover {
   background: #b3d4e7; }
 
-.flex-item:nth-child(5n+3) {
-  background: #dae1e5; }
+.flex-item:nth-child(4n+2) {
+  background: #dae1e5;
+  color: white; }
 
-.flex-item:nth-child(5n+3):hover {
+.flex-item:nth-child(4n+2):hover {
   background: #bcc9d0; }
 
-.flex-item:nth-child(5n+4) {
+.flex-item:nth-child(4n+3) {
   background: #c6b1ad; }
 
-.flex-item:nth-child(5n+4):hover {
+.flex-item:nth-child(4n+3):hover {
   background: #b1948f; }
 
-.flex-item:nth-child(5n+5) {
+.flex-item:nth-child(4n+4) {
   background: #a2a0aa; }
 
-.flex-item:nth-child(5n+5):hover {
+.flex-item:nth-child(4n+4):hover {
   background: #888592; }
 
 main {

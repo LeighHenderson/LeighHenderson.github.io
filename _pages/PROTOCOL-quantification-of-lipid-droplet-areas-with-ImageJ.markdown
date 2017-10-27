@@ -3,7 +3,7 @@ title: Quantifying Lipid Droplet Area with ImageJ
 description: "Protocol and macros to quantify lipid droplet area in fat tissue stained for perilipin A."
 graphical-abstract: GraphicalAbstract_PROTOCOL_Quantifying_lipid_droplet_area.jpg
 
-permalink: /PROTOCOL-quantifying-lipid-dropelet-area-with-ImageJ/
+permalink: /PROTOCOL-quantifying-images-with-ImageJ/
 category: protocol
 ---
 # PROTOCOL: {{ page.title }}
@@ -16,15 +16,15 @@ To measure the area of individual lipid dropelets in images of fat tissue staine
 <!-- Add in "See protocol for staining lipid droplet membranes in fat tissue" -->
 
 <!-- put the four images of figure 1 into a flexbox. Number the boxes 1-4. -->
-<img src="/assets/Figure_LDquantification_1_original_with_scalebar.jpg" alt="Original image." style="width:400px">
-<img src="/assets/Figure_LDquantification_2_thresholded.jpg" alt="Thresholded image after the application of macro 1 to the original image." style="width:400px">
-<img src="/assets/Figure_LDquantification_3_corrected.jpg" alt="Manually corrected image." style="width:400px">
-<img src="/assets/Figure_LDquantification_4_outlines.jpg" alt="Quantified image. Lipid droplets are outlined and numbered." style="width:400px">
+  <img src="/assets/Figure_LDquantification_1_original_with_scalebar.jpg" alt="Original image." style="width:300px">
+  <img src="/assets/Figure_LDquantification_2_thresholded.jpg" alt="Thresholded image after the application of macro 1 to the original image." style="width:300px">
+  <img src="/assets/Figure_LDquantification_3_corrected.jpg" alt="Manually corrected image." style="width:300px">
+  <img src="/assets/Figure_LDquantification_4_outlines.jpg" alt="Quantified image. Lipid droplets are outlined and numbered." style="width:300px">
 > **Figure 1.** Example image at each step of the analysis. (1) The original image showing a slice of mouse fat tissue stained for Perilipin A. The scale bar has been added to the original; scale bars should not be used in the actual image for analysis. (2) The image after thresholding with macro 1. (3) the image after manual correction. (4) The image after lipid droplet quantification with macro 2. Note that one manual correction is made - the filling in of a false "droplet" created by a torn membrane in the center of the image.
 
 ## Protocol
 <!-- I'd like to make this image a link to download rather than displaying the giant image -->
-I suggest testing the protocol with the example image below. Once it is working for you, adjust the parameters in each macro (ie. scale, threshold) to match your own images.
+I suggest testing this protocol on the image below. Once it is working for you, adjust the parameters in each macro (ie. scale, threshold) to match your own images.
 <img src="/assets/Figure_LDquantification_original.jpg" alt="Practice image for lipid droplet analysis." style="width:400px">
 
 ### Set up the file system

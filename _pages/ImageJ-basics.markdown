@@ -178,7 +178,7 @@ Edit the contents of "CountStarsInFolder.ijm" to improve the accuracy of countin
 
 The sky's the limit on macros [pun intended]. To infinity and beyond!
 
-See my ImageJ protocols and macros (LINK TO PAGE) for inspriation. 
+See my [ImageJ protocols for quantifying lipid droplets] for inspriation. 
 
 ### Starry sky image credit
 Thanks to Davide De Martin for the [starry sky image] from the ESO/Digitized Sky Survey 2. All smaller sky images were cropped from the original.
@@ -187,5 +187,6 @@ Thanks to Davide De Martin for the [starry sky image] from the ESO/Digitized Sky
 [//]: #(These are references used above, to be processed by Jekyll)
 [imagej.nih.gov]:<https://imagej.nih.gov/ij/download.html>
 [wiki]:<http://imagejdocu.tudor.lu/>
+[ImageJ protocols for quantifying lipid droplets]:<{{ site.url }}/PROTOCOL-quantifying-images-with-ImageJ/>
 [starry sky image]:<http://www.eso.org/public/images/eso1337b/>
 

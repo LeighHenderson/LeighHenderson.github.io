@@ -81,14 +81,14 @@ mobile-first */
 .flex-item:nth-child(n+2):hover a {
   color: black; }
 
-.flex-item:nth-child(4n+2):hover {
-  background: #f4fbfd; }
-
-.flex-item:nth-child(4n+3):hover {
+.flex-item:nth-child(4n+1):hover {
   background: #daeaf3; }
 
-.flex-item:nth-child(4n+4):hover {
+.flex-item:nth-child(4n+2):hover {
   background: #dae1e5; }
 
-.flex-item:nth-child(4n+5):hover {
+.flex-item:nth-child(4n+3):hover {
+  background: #c6b1ad; }
+
+.flex-item:nth-child(4n+4):hover {
   background: #a2a0aa; }

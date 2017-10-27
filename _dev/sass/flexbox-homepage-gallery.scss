@@ -96,15 +96,15 @@ $color8: rgb(34, 35, 39); /* darker gray */
         color: black;
     }
 }
-.flex-item:nth-child(4n+2):hover {
-        background: $color1;
-}
-.flex-item:nth-child(4n+3):hover {
+.flex-item:nth-child(4n+1):hover {
         background: $color2;
 }
-.flex-item:nth-child(4n+4):hover {
+.flex-item:nth-child(4n+2):hover {
         background: $color3;
 }
-.flex-item:nth-child(4n+5):hover {
+.flex-item:nth-child(4n+3):hover {
+        background: $color4;
+}
+.flex-item:nth-child(4n+4):hover {
         background: $color5;
 }

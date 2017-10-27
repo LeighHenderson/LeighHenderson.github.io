@@ -39,6 +39,7 @@ stylesheets:
         {% if page.graphical-abstract and page.graphical-abstract != '' %}
             <button class="slideshow myButtons" onclick="currentDiv( {{ forloop.index }} )"></button>
         {% endif %} 
+        <!-- Known bug: index advances no matter whether a page has a graphical abstract, causing later buttons to have the wrong index # -->
     {% endfor %}
 
     <button class="slideshow" onclick="plusDivs(1)"></button>

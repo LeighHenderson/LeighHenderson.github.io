@@ -2,7 +2,7 @@
 mobile-first */
 
 /* turkey feathers color scheme */
-$color1: rgb(244, 251, 253); /* light blue-gray */
+$color1: rgb(244, 251, 253); /* light blue-gray SHOWS UP AS WHITE ON CHROME BROWSER*/
 $color2: rgb(218, 234, 243); /* blue-gray */
 $color3: rgb(218, 225, 229); /* heather */
 $color4: rgb(198, 177, 173);  /* light mauve */
@@ -102,39 +102,32 @@ $icon-large: 4em;
     }
 }
 
-.flex-item:nth-child(5n+1) {
-    background: $color1;
-}
-.flex-item:nth-child(5n+1):hover {
-        background: darken($color1, 10%);
-}
-
-.flex-item:nth-child(5n+2) {
+.flex-item:nth-child(4n+1) {
     background: $color2;
-    color: white;
 }
-.flex-item:nth-child(5n+2):hover {
+.flex-item:nth-child(4n+1):hover {
         background: darken($color2, 10%);
 }
 
-.flex-item:nth-child(5n+3) {
+.flex-item:nth-child(4n+2) {
     background: $color3;
+    color: white;
 }
-.flex-item:nth-child(5n+3):hover {
+.flex-item:nth-child(4n+2):hover {
         background: darken($color3, 10%);
 }
 
-.flex-item:nth-child(5n+4) {
+.flex-item:nth-child(4n+3) {
     background: $color4;
 }
-.flex-item:nth-child(5n+4):hover {
+.flex-item:nth-child(4n+3):hover {
         background: darken($color4, 10%);
 }
 
-.flex-item:nth-child(5n+5) {
+.flex-item:nth-child(4n+4) {
     background: $color5;
 }
-.flex-item:nth-child(5n+5):hover {
+.flex-item:nth-child(4n+4):hover {
         background: darken($color5, 10%);
 }
 
