@@ -58,7 +58,7 @@ mobile-first */
     -ms-flex-preferred-size: 50%;
     flex-basis: 50%; } }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 800px) {
   .flex-container {
     -ms-flex-align: center;
     align-items: center; }
@@ -73,16 +73,6 @@ mobile-first */
     -ms-flex-preferred-size: 25%;
     flex-basis: 25%;
     min-width: 150px; } }
-
-@media only screen and (min-width: 800px) {
-  .flex-item {
-    -ms-flex-preferred-size: 25%;
-    flex-basis: 25%; }
-  .felx-item i {
-    font-size: 4em; }
-  .icon-item {
-    -ms-flex-preferred-size: 16.66%;
-    flex-basis: 16.66%; } }
 
 .flex-item:nth-child(4n+1) {
   background: #daeaf3; }

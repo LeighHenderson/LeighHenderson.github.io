@@ -70,7 +70,7 @@ $icon-large: 4em;
         flex-basis: 50%;
     }
 }
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 800px) {
     .flex-container {
         align-items: center ;
     }
@@ -87,18 +87,6 @@ $icon-large: 4em;
         flex-basis: 25%;
         min-width: 150px;
 
-    }
-}
-
-@media only screen and (min-width: 800px) {
-    .flex-item {
-        flex-basis: 25%;
-    }
-    .felx-item i {
-        font-size: $icon-large;
-    }
-    .icon-item {
-        flex-basis: 16.66%;
     }
 }
 
