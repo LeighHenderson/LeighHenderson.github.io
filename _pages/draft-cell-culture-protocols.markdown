@@ -3,7 +3,7 @@ title:  "Cell Culture Protocols"
 description: Protocols for work with different cell lines
 
 permalink: /cell-culture-protocols/
-category: protocol
+category: draft
 ---
 # {{ page.title }}
 
